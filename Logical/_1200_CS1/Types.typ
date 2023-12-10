@@ -2,8 +2,8 @@
 TYPE
 	States : 
 		(
-		Idle,
-		TransferToLoading,
-		ReadyForOffload
+		Idle := 0,
+		TransferToLoading := 1,
+		ReadyForOffload := 2
 		);
 END_TYPE

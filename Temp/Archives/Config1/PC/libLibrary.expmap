@@ -1,6 +1,7 @@
 {
   global:
-    *;
+    fb_MoveCrane;
+    f_GetCoordinate;
   local:
     *;
  };

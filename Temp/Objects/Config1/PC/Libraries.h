@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20231210190002_
-#define _LIBRARIES_20231210190002_
+#ifndef _LIBRARIES_20231210230506_
+#define _LIBRARIES_20231210230506_
 
 __asm__(".section \".plc\"");
 
@@ -26,6 +26,7 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/OPC.typ\\\" scope \\\"gl
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/Global.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/States.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/SubState.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/DataTypes.typ\\\" scope \\\"global\\\"\\n\"");
 
 /* Exported library functions and function blocks */
 #ifdef _OPERATOR_EXPORT
@@ -464,9 +465,13 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/SubState.typ\\\" scope \
 	__asm__(".ascii \"plcexport \\\"WSTRING_TO_LREAL\\\" FUN\\n\"");
 	__asm__(".ascii \"plcexport \\\"WSTRING_TO_STRING\\\" FUN\\n\"");
 #endif
+#ifdef _LIBRARY_EXPORT
+	__asm__(".ascii \"plcexport \\\"fb_MoveCrane\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"f_GetCoordinate\\\" FUN\\n\"");
+#endif
 
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20231210190002_ */
+#endif /* _LIBRARIES_20231210230506_ */
 

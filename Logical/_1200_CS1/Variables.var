@@ -1,8 +1,3 @@
-VAR
-	OpcOut : UDT_ConveyorInfeedOutput;
-	OpcIn : UDT_ConveyorInfeedInput;
-	Gv : UDT_Global;
-END_VAR
 VAR CONSTANT
 	STS_Idle : USINT := 0;
 	STS_Transfer : USINT := 1;

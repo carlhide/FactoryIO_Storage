@@ -40,16 +40,16 @@
       Disable="false"
       Source="_1500_PPS"
       Language="IEC">
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Variables.var" />
       <InternalFile
         Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1500_PPS\Init.st.var" />
       <InternalFile
         Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1500_PPS\Exit.st.var" />
       <File
         Path="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Types.typ" />
-      <File
-        Path="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Variables.var" />
       <InternalFile
-        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1500_PPS\_0000_States.st.var" />
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1500_PPS\_0100_Controller.st.var" />
     </Task>
     <Task
       Name="_1700_HMI"

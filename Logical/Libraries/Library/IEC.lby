@@ -9,5 +9,6 @@
     <File>Global.typ</File>
     <File>States.typ</File>
     <File>SubState.typ</File>
+    <File>DataTypes.typ</File>
   </Files>
 </Library>

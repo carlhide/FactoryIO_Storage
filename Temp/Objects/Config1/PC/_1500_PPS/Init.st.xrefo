@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Crossref Scope="_1500_PPS" AppMod="">
+	<Vars>
+		<Var Name="_1500_PPS.PAR_HomeX" Scope="Local" Type="REAL">
+			<File Name="c:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Init.st">
+				<Pos L="6" C="2" PS="Ln:6, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="_1500_PPS.PAR_HomeZ" Scope="Local" Type="REAL">
+			<File Name="c:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Init.st">
+				<Pos L="7" C="2" PS="Ln:7, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="_1500_PPS.PAR_NbrOfTiers" Scope="Local" Type="DINT">
+			<File Name="c:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Init.st">
+				<Pos L="15" C="2" PS="Ln:15, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="_1500_PPS.PAR_NbrOfRows" Scope="Local" Type="DINT">
+			<File Name="c:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Init.st">
+				<Pos L="16" C="2" PS="Ln:16, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="_1500_PPS.PAR_FirstBayPosX" Scope="Local" Type="REAL">
+			<File Name="c:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Init.st">
+				<Pos L="9" C="2" PS="Ln:9, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="_1500_PPS.PAR_FirstBayPosZ" Scope="Local" Type="REAL">
+			<File Name="c:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Init.st">
+				<Pos L="10" C="2" PS="Ln:10, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="_1500_PPS.PAR_LastBayPosX" Scope="Local" Type="REAL">
+			<File Name="c:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Init.st">
+				<Pos L="12" C="2" PS="Ln:12, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="_1500_PPS.PAR_LastBayPosZ" Scope="Local" Type="REAL">
+			<File Name="c:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Init.st">
+				<Pos L="13" C="2" PS="Ln:13, Col:2" A="W"/>
+			</File>
+		</Var>
+		<Var Name="_1500_PPS.PAR_LoadOffLoadZDelta" Scope="Local" Type="REAL">
+			<File Name="c:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Init.st">
+				<Pos L="18" C="2" PS="Ln:18, Col:2" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

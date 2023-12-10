@@ -14,12 +14,12 @@ PROGRAM _CYCLIC
 			IF v_BoxAtEntry AND NOT v_BoxAtLoad AND NOT v_OffloadingActive THEN
 				v_CurrentState := STS_Transfer;
 			END_IF;
+			
 		STS_Transfer:
-			v_EntryConveyorRunOrder := TRUE;
-			v_LoadingConveyorRunOrder := TRUE;
 			IF v_BoxAtLoad THEN
 				v_CurrentState := STS_WaitForOffload;
 			END_IF;
+			
 		STS_WaitForOffload:
 			IF NOT v_BoxAtLoad AND NOT v_OffloadingActive THEN
 				v_ReadyToOffload := FALSE;

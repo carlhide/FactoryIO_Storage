@@ -186,9 +186,31 @@ typedef struct UDT_Global
 	struct UDT_SafetySystem SafetySystem;
 } UDT_Global;
 
+typedef struct UDT_XYZCoordinate
+{	float X;
+	float Y;
+	float Z;
+} UDT_XYZCoordinate;
+
+typedef struct fb_MoveCrane
+{
+	/* VAR_INPUT (analog) */
+	float PosX;
+	float PosY;
+	/* VAR_OUTPUT (analog) */
+	struct UDT_Sequence State;
+	/* VAR_INPUT (digital) */
+	plcbit Interlock;
+	/* VAR_OUTPUT (digital) */
+	plcbit ActuatorX;
+	plcbit ActuatorY;
+} fb_MoveCrane_typ;
 
 
 
+/* Prototyping of functions and function blocks */
+_BUR_PUBLIC void fb_MoveCrane(struct fb_MoveCrane* inst);
+_BUR_PUBLIC UDT_XYZCoordinate f_GetCoordinate(plcbit RowNbr, plcbit TierNbr);
 
 
 #ifdef __cplusplus

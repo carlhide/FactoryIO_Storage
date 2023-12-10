@@ -1,0 +1,12 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=_1500_PPS 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=4 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                    v_CraneXAxisSetPoint                                     REAL    0 "                                                             0.0"    0    8    1   10    1    0         
+                    v_CraneZAxisSetPoint                                     REAL    0 "                                                            0.18"    0    8    1   10    1    0         
+                               PAR_HomeX                                     REAL    0 "                                                             0.0"    0    8    1   10    1    0         
+                               PAR_HomeZ                                     REAL    0 "                                                            0.18"    0    8    1   10    1    0         
+                          v_CurrentState                                     DINT    0 "                                                               1"    0    4    1   10    1    0         
+                                STS_Idle                                     DINT    0 "                                                               0"    0    4    1   10    1    0         
+                             v_PositionX                                     REAL    0 "                                                             0.0"    0    8    1   10    1    0         
+                             v_PositionZ                                     REAL    0 "                                                     0.179993525"    0    8    1   10    1    0         
+               v_InfeedPickupAndStoreReq                                     BOOL    0 "                                                            TRUE"    0    1    1    2    1    0         
