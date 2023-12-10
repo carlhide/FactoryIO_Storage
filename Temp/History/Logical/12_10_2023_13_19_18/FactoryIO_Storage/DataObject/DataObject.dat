@@ -1,0 +1,7 @@
+TYPE MyStructName : 
+  STRUCT
+    Field1 : INT;
+    Field2 : REAL;
+    Field3 : STRING;
+  END_STRUCT;
+END_TYPE;

@@ -1,3 +1,4 @@
 VAR
-	gv_test : USINT;
+	Gv : UDT_Global;
+	Opc : UDT_OPC;
 END_VAR

@@ -10,20 +10,36 @@
   <TaskClass
     Name="Cyclic#4">
     <Task
-      Name="Program"
+      Name="_1200_CS1"
       Disable="false"
-      Source="Program"
+      Source="_1200_CS1"
       Language="IEC">
       <InternalFile
-        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\Program\Cyclic.st.var" />
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1200_CS1\Init.st.var" />
       <InternalFile
-        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\Program\Init.st.var" />
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1200_CS1\Exit.st.var" />
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1200_CS1\Types.typ" />
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1200_CS1\Variables.var" />
       <InternalFile
-        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\Program\Exit.st.var" />
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1200_CS1\_0000_States.st.var" />
+    </Task>
+    <Task
+      Name="_1300_CS2"
+      Disable="false"
+      Source="_1300_CS2"
+      Language="IEC">
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1300_CS2\Init.st.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1300_CS2\Exit.st.var" />
       <File
-        Path="C:\repos\local\FactoryIO_Storage\Logical\Program\Types.typ" />
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1300_CS2\Types.typ" />
       <File
-        Path="C:\repos\local\FactoryIO_Storage\Logical\Program\Variables.var" />
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1300_CS2\Variables.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1300_CS2\_0000_States.st.var" />
     </Task>
   </TaskClass>
   <TaskClass

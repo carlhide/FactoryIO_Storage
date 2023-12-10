@@ -9,7 +9,13 @@
     <Object Type="File">OpcTag.opct</Object>
     <Object Type="File">OpcProperties.opcp</Object>
     <Object Type="File">OpcAlarm.opca</Object>
-    <Object Type="Program" Language="IEC">Program</Object>
-    <Object Type="Program" Language="IEC">Program1</Object>
+    <Object Type="Program" Language="IEC">_1000_SCTRL</Object>
+    <Object Type="Program" Language="IEC">_1100_CSYS</Object>
+    <Object Type="Program" Language="IEC">_1200_CS1</Object>
+    <Object Type="Program" Language="IEC">_1300_CS2</Object>
+    <Object Type="Program" Language="IEC">_1400_SRS</Object>
+    <Object Type="Program" Language="IEC">_1500_PPS</Object>
+    <Object Type="Program" Language="IEC">_1600_SSYS</Object>
+    <Object Type="Program" Language="IEC">_1700_HMI</Object>
   </Objects>
 </Package>
