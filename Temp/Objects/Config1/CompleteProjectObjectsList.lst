@@ -5,7 +5,7 @@
     Path="C:\repos\local\FactoryIO_Storage\Logical\Package.pkg"
     LogicalPath=""
     Type="Package.ParentUnknown"
-    LastWriteTime="133466271988806216" />
+    LastWriteTime="133466854848946388" />
   <Object
     Path="C:\repos\local\FactoryIO_Storage\Logical\Global.typ"
     LogicalPath="Global.typ"
@@ -16,13 +16,13 @@
     Path="C:\repos\local\FactoryIO_Storage\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="133466254223518931"
+    LastWriteTime="133466871681817172"
     Private="false" />
   <Object
     Path="C:\repos\local\FactoryIO_Storage\Logical\Libraries\Package.pkg"
     LogicalPath="Libraries"
     Type="Package"
-    LastWriteTime="133466179968442153" />
+    LastWriteTime="133466845174063388" />
   <Object
     Path="C:\repos\local\FactoryIO_Storage\Logical\Libraries\operator\binary.lby"
     LogicalPath="Libraries.operator"
@@ -116,40 +116,52 @@
     LastWriteTime="133466179968392294"
     Private="false" />
   <Object
-    Path="C:\repos\local\FactoryIO_Storage\Logical\Program\IEC.prg"
-    LogicalPath="Program"
-    Type="Program"
-    LastWriteTime="133466196493181084" />
+    Path="C:\repos\local\FactoryIO_Storage\Logical\Libraries\Library\IEC.lby"
+    LogicalPath="Libraries.Library"
+    Type="Library"
+    LastWriteTime="133467019350127496" />
   <Object
-    Path="C:\repos\local\FactoryIO_Storage\Logical\Program\Cyclic.st"
-    LogicalPath="Program.Cyclic.st"
+    Path="C:\repos\local\FactoryIO_Storage\Logical\Libraries\Library\Modules.typ"
+    LogicalPath="Libraries.Library.Modules.typ"
     Type="File"
-    LastWriteTime="133466819505929508"
+    LastWriteTime="133467036971887186"
     Private="false" />
   <Object
-    Path="C:\repos\local\FactoryIO_Storage\Logical\Program\Init.st"
-    LogicalPath="Program.Init.st"
+    Path="C:\repos\local\FactoryIO_Storage\Logical\Libraries\Library\Constants.var"
+    LogicalPath="Libraries.Library.Constants.var"
     Type="File"
-    LastWriteTime="133466219020682793"
+    LastWriteTime="133466845173913784"
     Private="false" />
   <Object
-    Path="C:\repos\local\FactoryIO_Storage\Logical\Program\Exit.st"
-    LogicalPath="Program.Exit.st"
+    Path="C:\repos\local\FactoryIO_Storage\Logical\Libraries\Library\Library.fun"
+    LogicalPath="Libraries.Library.Library.fun"
     Type="File"
-    LastWriteTime="133466196493151161"
+    LastWriteTime="133466845173933731"
     Private="false" />
   <Object
-    Path="C:\repos\local\FactoryIO_Storage\Logical\Program\Types.typ"
-    LogicalPath="Program.Types.typ"
+    Path="C:\repos\local\FactoryIO_Storage\Logical\Libraries\Library\OPC.typ"
+    LogicalPath="Libraries.Library.OPC.typ"
     Type="File"
-    LastWriteTime="133466196493161129"
-    Private="true" />
+    LastWriteTime="133466922798669765"
+    Private="false" />
   <Object
-    Path="C:\repos\local\FactoryIO_Storage\Logical\Program\Variables.var"
-    LogicalPath="Program.Variables.var"
+    Path="C:\repos\local\FactoryIO_Storage\Logical\Libraries\Library\Global.typ"
+    LogicalPath="Libraries.Library.Global.typ"
     Type="File"
-    LastWriteTime="133466819146113274"
-    Private="true" />
+    LastWriteTime="133467020548956348"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\Libraries\Library\States.typ"
+    LogicalPath="Libraries.Library.States.typ"
+    Type="File"
+    LastWriteTime="133466953260973077"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\Libraries\Library\SubState.typ"
+    LogicalPath="Libraries.Library.SubState.typ"
+    Type="File"
+    LastWriteTime="133467020551065664"
+    Private="false" />
   <Object
     Path="C:\repos\local\FactoryIO_Storage\Logical\mappView\Package.pkg"
     LogicalPath="mappView"
@@ -336,7 +348,7 @@
     Path="C:\repos\local\FactoryIO_Storage\Logical\OpcTag.opct"
     LogicalPath="OpcTag.opct"
     Type="File"
-    LastWriteTime="133466825925214326"
+    LastWriteTime="133466874122112074"
     Private="false" />
   <Object
     Path="C:\repos\local\FactoryIO_Storage\Logical\OpcProperties.opcp"
@@ -348,7 +360,287 @@
     Path="C:\repos\local\FactoryIO_Storage\Logical\OpcAlarm.opca"
     LogicalPath="OpcAlarm.opca"
     Type="File"
-    LastWriteTime="133466271988796285"
+    LastWriteTime="133466841290085571"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\IEC.prg"
+    LogicalPath="_1000_SCTRL"
+    Type="Program"
+    LastWriteTime="133466943455146182" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\Variables.var"
+    LogicalPath="_1000_SCTRL.Variables.var"
+    Type="File"
+    LastWriteTime="133466869537892568"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\Types.typ"
+    LogicalPath="_1000_SCTRL.Types.typ"
+    Type="File"
+    LastWriteTime="133466943455146182"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\Init.st"
+    LogicalPath="_1000_SCTRL.Init.st"
+    Type="File"
+    LastWriteTime="133466841244202142"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\Exit.st"
+    LogicalPath="_1000_SCTRL.Exit.st"
+    Type="File"
+    LastWriteTime="133466841244212117"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\_0000_States.st"
+    LogicalPath="_1000_SCTRL._0000_States.st"
+    Type="File"
+    LastWriteTime="133467025069085659"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1100_CSYS\IEC.prg"
+    LogicalPath="_1100_CSYS"
+    Type="Program"
+    LastWriteTime="133466869500246869" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1100_CSYS\Variables.var"
+    LogicalPath="_1100_CSYS.Variables.var"
+    Type="File"
+    LastWriteTime="133466869500236895"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1100_CSYS\_0000_States.st"
+    LogicalPath="_1100_CSYS._0000_States.st"
+    Type="File"
+    LastWriteTime="133466851670589591"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1100_CSYS\Init.st"
+    LogicalPath="_1100_CSYS.Init.st"
+    Type="File"
+    LastWriteTime="133466840636153010"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1100_CSYS\Exit.st"
+    LogicalPath="_1100_CSYS.Exit.st"
+    Type="File"
+    LastWriteTime="133466840636172952"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1100_CSYS\Types.typ"
+    LogicalPath="_1100_CSYS.Types.typ"
+    Type="File"
+    LastWriteTime="133466840636182925"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1200_CS1\IEC.prg"
+    LogicalPath="_1200_CS1"
+    Type="Program"
+    LastWriteTime="133467036342102463" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1200_CS1\Variables.var"
+    LogicalPath="_1200_CS1.Variables.var"
+    Type="File"
+    LastWriteTime="133467040766280695"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1200_CS1\Types.typ"
+    LogicalPath="_1200_CS1.Types.typ"
+    Type="File"
+    LastWriteTime="133466953262756677"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1200_CS1\Init.st"
+    LogicalPath="_1200_CS1.Init.st"
+    Type="File"
+    LastWriteTime="133466854848856630"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1200_CS1\Exit.st"
+    LogicalPath="_1200_CS1.Exit.st"
+    Type="File"
+    LastWriteTime="133466854848866607"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1200_CS1\_0100_Controller.st"
+    LogicalPath="_1200_CS1._0100_Controller.st"
+    Type="File"
+    LastWriteTime="133467047977444138"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1300_CS2\IEC.prg"
+    LogicalPath="_1300_CS2"
+    Type="Program"
+    LastWriteTime="133466853051620606" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1300_CS2\Init.st"
+    LogicalPath="_1300_CS2.Init.st"
+    Type="File"
+    LastWriteTime="133466853051560772"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1300_CS2\Exit.st"
+    LogicalPath="_1300_CS2.Exit.st"
+    Type="File"
+    LastWriteTime="133466853051570746"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1300_CS2\Types.typ"
+    LogicalPath="_1300_CS2.Types.typ"
+    Type="File"
+    LastWriteTime="133466853051590681"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1300_CS2\Variables.var"
+    LogicalPath="_1300_CS2.Variables.var"
+    Type="File"
+    LastWriteTime="133466853051600657"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1300_CS2\_0000_States.st"
+    LogicalPath="_1300_CS2._0000_States.st"
+    Type="File"
+    LastWriteTime="133466853051610638"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1400_SRS\IEC.prg"
+    LogicalPath="_1400_SRS"
+    Type="Program"
+    LastWriteTime="133466852424976510" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1400_SRS\Init.st"
+    LogicalPath="_1400_SRS.Init.st"
+    Type="File"
+    LastWriteTime="133466837542869436"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1400_SRS\Exit.st"
+    LogicalPath="_1400_SRS.Exit.st"
+    Type="File"
+    LastWriteTime="133466837542879410"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1400_SRS\Types.typ"
+    LogicalPath="_1400_SRS.Types.typ"
+    Type="File"
+    LastWriteTime="133466837542899355"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1400_SRS\Variables.var"
+    LogicalPath="_1400_SRS.Variables.var"
+    Type="File"
+    LastWriteTime="133466837542919301"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1400_SRS\_0000_States.st"
+    LogicalPath="_1400_SRS._0000_States.st"
+    Type="File"
+    LastWriteTime="133466852136631274"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\IEC.prg"
+    LogicalPath="_1500_PPS"
+    Type="Program"
+    LastWriteTime="133466852416617414" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Init.st"
+    LogicalPath="_1500_PPS.Init.st"
+    Type="File"
+    LastWriteTime="133466837679989869"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Exit.st"
+    LogicalPath="_1500_PPS.Exit.st"
+    Type="File"
+    LastWriteTime="133466837679999843"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Types.typ"
+    LogicalPath="_1500_PPS.Types.typ"
+    Type="File"
+    LastWriteTime="133466837680019788"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Variables.var"
+    LogicalPath="_1500_PPS.Variables.var"
+    Type="File"
+    LastWriteTime="133466837680101202"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0000_States.st"
+    LogicalPath="_1500_PPS._0000_States.st"
+    Type="File"
+    LastWriteTime="133466852044447668"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1600_SSYS\IEC.prg"
+    LogicalPath="_1600_SSYS"
+    Type="Program"
+    LastWriteTime="133466852408770590" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1600_SSYS\Init.st"
+    LogicalPath="_1600_SSYS.Init.st"
+    Type="File"
+    LastWriteTime="133466837686193654"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1600_SSYS\Exit.st"
+    LogicalPath="_1600_SSYS.Exit.st"
+    Type="File"
+    LastWriteTime="133466837686203628"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1600_SSYS\Types.typ"
+    LogicalPath="_1600_SSYS.Types.typ"
+    Type="File"
+    LastWriteTime="133466837686223581"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1600_SSYS\Variables.var"
+    LogicalPath="_1600_SSYS.Variables.var"
+    Type="File"
+    LastWriteTime="133466837686299446"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1600_SSYS\_0000_States.st"
+    LogicalPath="_1600_SSYS._0000_States.st"
+    Type="File"
+    LastWriteTime="133466852038944131"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1700_HMI\IEC.prg"
+    LogicalPath="_1700_HMI"
+    Type="Program"
+    LastWriteTime="133466852399756894" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1700_HMI\Init.st"
+    LogicalPath="_1700_HMI.Init.st"
+    Type="File"
+    LastWriteTime="133466837693989150"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1700_HMI\Exit.st"
+    LogicalPath="_1700_HMI.Exit.st"
+    Type="File"
+    LastWriteTime="133466837694009101"
+    Private="false" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1700_HMI\Types.typ"
+    LogicalPath="_1700_HMI.Types.typ"
+    Type="File"
+    LastWriteTime="133466837694019072"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1700_HMI\Variables.var"
+    LogicalPath="_1700_HMI.Variables.var"
+    Type="File"
+    LastWriteTime="133466837694034129"
+    Private="true" />
+  <Object
+    Path="C:\repos\local\FactoryIO_Storage\Logical\_1700_HMI\_0000_States.st"
+    LogicalPath="_1700_HMI._0000_States.st"
+    Type="File"
+    LastWriteTime="133466852032043836"
     Private="false" />
   <Object
     Path="C:\repos\local\FactoryIO_Storage\Physical\Config1\Config.pkg"
@@ -371,12 +663,12 @@
     Path="C:\repos\local\FactoryIO_Storage\Physical\Config1\PC\Cpu.pkg"
     LogicalPath="Config1.PC"
     Type="Cpu"
-    LastWriteTime="133466827166592487" />
+    LastWriteTime="133467042390693529" />
   <Object
     Path="C:\repos\local\FactoryIO_Storage\Physical\Config1\PC\Cpu.sw"
     LogicalPath="Config1.PC.Cpu.sw"
     Type="File"
-    LastWriteTime="133466196493649825"
+    LastWriteTime="133467024660838927"
     Private="false" />
   <Object
     Path="C:\repos\local\FactoryIO_Storage\Physical\Config1\PC\Cpu.per"
@@ -410,7 +702,7 @@
     Path="C:\repos\local\FactoryIO_Storage\Physical\Config1\PC\Connectivity\OpcUA\OpcUaMap.uad"
     LogicalPath="Config1.PC.Connectivity.OpcUA.OpcUaMap.uad"
     Type="File"
-    LastWriteTime="133466829683115496"
+    LastWriteTime="133466884182260930"
     Private="false" />
   <Object
     Path="C:\repos\local\FactoryIO_Storage\Physical\Config1\PC\Connectivity\OpcUA\OpcUa.uanodeset"

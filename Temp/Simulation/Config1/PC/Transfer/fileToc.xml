@@ -1288,7 +1288,7 @@
 			<Folder Name="OPCUA" ProjectDependent="1">
 				<Folder Name="NodeSet" ProjectDependent="1" IsGroup="1">
 					<Folder Name="Generated" ProjectDependent="1" IsGroup="1">
-						<File Name="OpcUaMap.uar.gz" Size="491" HashValue="8328AA5BEDF13BEEABA189A6AB74A0BE" ProjectDependent="1"/>
+						<File Name="OpcUaMap.uar.gz" Size="815" HashValue="D348C194ACD02CE10DEEB9ED02450253" ProjectDependent="1"/>
 					</Folder>
 					<Folder Name="Imported" ProjectDependent="1" IsGroup="1">
 						<File Name="OpcUa.uanodeset" Size="785" HashValue="A2FCC767B4D5EC37C76DA5F708304AD2" ProjectDependent="1"/>

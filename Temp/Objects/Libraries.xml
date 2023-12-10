@@ -14,6 +14,12 @@
     UseAsStatic="false"
     Version="" />
   <Library
+    Name="Library"
+    IsDeployed="true"
+    IsStatic="false"
+    UseAsStatic="false"
+    Version="" />
+  <Library
     Name="operator"
     IsDeployed="false"
     IsStatic="false"

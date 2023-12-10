@@ -1,0 +1,9 @@
+VAR
+	var_StartReq : BOOL;
+	var_StartOrder : BOOL;
+	var_Counter : DINT;
+	var_StartReqPreviousState : BOOL;
+	OpcOut : UDT_ConveyorInfeedOutput;
+	OpcIn : UDT_ConveyorInfeedInput;
+	Gv : UDT_Global;
+END_VAR

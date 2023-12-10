@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20231210135833_
-#define _LIBRARIES_20231210135833_
+#ifndef _LIBRARIES_20231210190002_
+#define _LIBRARIES_20231210190002_
 
 __asm__(".section \".plc\"");
 
@@ -22,8 +22,10 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/AsIecCon/AsIecCon.var\\\" scope 
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/Modules.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/Library.fun\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/Global.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/OPC.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/Global.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/States.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/SubState.typ\\\" scope \\\"global\\\"\\n\"");
 
 /* Exported library functions and function blocks */
 #ifdef _OPERATOR_EXPORT
@@ -466,5 +468,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/OPC.typ\\\" scope \\\"gl
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20231210135833_ */
+#endif /* _LIBRARIES_20231210190002_ */
 

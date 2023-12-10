@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/_1200_CS1/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Library/Modules.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Library/SubState.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Library/Global.typ
+$(AS_PROJECT_PATH)/Logical/Libraries/Library/OPC.typ
+$(AS_PROJECT_PATH)/Logical/Global.var

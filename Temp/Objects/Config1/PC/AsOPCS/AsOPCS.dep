@@ -1,7 +1,14 @@
-$(AS_PROJECT_PATH)/Logical/OpcTag.opct
 $(AS_PROJECT_PATH)/Logical/Global.var
 $(AS_PROJECT_PATH)/Logical/Libraries/operator/operator.var
 $(AS_PROJECT_PATH)/Logical/Libraries/runtime/runtime.var
 $(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.var
 $(AS_PROJECT_PATH)/Logical/Libraries/AsIecCon/AsIecCon.var
-$(AS_PROJECT_PATH)/Logical/Program/Variables.var
+$(AS_PROJECT_PATH)/Logical/Libraries/Library/Constants.var
+$(AS_PROJECT_PATH)/Logical/_1000_SCTRL/Variables.var
+$(AS_PROJECT_PATH)/Logical/_1100_CSYS/Variables.var
+$(AS_PROJECT_PATH)/Logical/_1500_PPS/Variables.var
+$(AS_PROJECT_PATH)/Logical/_1700_HMI/Variables.var
+$(AS_PROJECT_PATH)/Logical/_1600_SSYS/Variables.var
+$(AS_PROJECT_PATH)/Logical/_1400_SRS/Variables.var
+$(AS_PROJECT_PATH)/Logical/_1300_CS2/Variables.var
+$(AS_PROJECT_PATH)/Logical/_1200_CS1/Variables.var

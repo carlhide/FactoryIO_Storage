@@ -5,7 +5,9 @@
     <File Description="Exported data types">Modules.typ</File>
     <File Description="Exported constants">Constants.var</File>
     <File Description="Exported functions and function blocks">Library.fun</File>
-    <File>Global.typ</File>
     <File>OPC.typ</File>
+    <File>Global.typ</File>
+    <File>States.typ</File>
+    <File>SubState.typ</File>
   </Files>
 </Library>

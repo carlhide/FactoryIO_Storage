@@ -1,4 +1,4 @@
 VAR
 	Gv : UDT_Global;
-	Opc : UDT_OPC;
+	Opc : UDT_Opc;
 END_VAR

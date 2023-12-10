@@ -1,7 +1,19 @@
 VAR
-	var_StartReq : BOOL;
-	var_StartOrder : BOOL;
-	var_Counter : DINT;
-	var_StartReqPreviousState : BOOL;
-	in : UDT_ConveyorInfeedInput;
+	OpcOut : UDT_ConveyorInfeedOutput;
+	OpcIn : UDT_ConveyorInfeedInput;
+	Gv : UDT_Global;
+END_VAR
+VAR CONSTANT
+	STS_Idle : USINT := 0;
+	STS_Transfer : USINT := 1;
+	STS_WaitForOffload : USINT := 2;
+END_VAR
+VAR
+	v_CurrentState : USINT := 0;
+	v_BoxAtEntry : BOOL;
+	v_BoxAtLoad : BOOL;
+	v_OffloadingActive : BOOL;
+	v_ReadyToOffload : BOOL;
+	v_EntryConveyorRunOrder : BOOL;
+	v_LoadingConveyorRunOrder : BOOL;
 END_VAR

@@ -1,7 +1,7 @@
 SHELL := cmd.exe
 CYGWIN=nontsec
 export PATH := C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Users\carlh\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\carlh\AppData\Local\Programs\Python\Python312\;C:\Users\carlh\AppData\Local\Microsoft\WindowsApps;C:\Users\carlh\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\Users\carlh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\carlh\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\carlh\AppData\Local\Programs\Python\Python312\;C:\Users\carlh\AppData\Local\Microsoft\WindowsApps;C:\Users\carlh\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\Common Files\Hilscher GmbH\TLRDecode;C:\Users\carlh\AppData\Local\Programs\Microsoft VS Code\bin;C:\BRAutomation\AS412\bin-en\4.12;C:\BRAutomation\AS412\bin-en\4.11;C:\BRAutomation\AS412\bin-en\4.10;C:\BRAutomation\AS412\bin-en\4.9;C:\BRAutomation\AS412\bin-en\4.8;C:\BRAutomation\AS412\bin-en\4.7;C:\BRAutomation\AS412\bin-en\4.6;C:\BRAutomation\AS412\bin-en\4.5;C:\BRAutomation\AS412\bin-en\4.4;C:\BRAutomation\AS412\bin-en\4.3;C:\BRAutomation\AS412\bin-en\4.2;C:\BRAutomation\AS412\bin-en\4.1;C:\BRAutomation\AS412\bin-en\4.0;C:\BRAutomation\AS412\bin-en
-export AS_BUILD_MODE := CrossReference
+export AS_BUILD_MODE := BuildAndTransfer
 export AS_VERSION := 4.12.2.93
 export AS_WORKINGVERSION := 4.12
 export AS_COMPANY_NAME :=  
@@ -35,5 +35,5 @@ export WIN32_AS_INSTALL_PATH := "C:\BRAutomation\AS412"
 
 ProjectMakeFile:
 
-	@'$(AS_BIN_PATH)/4.9/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/FactoryIO_Storage.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)' -X  -sfas -buildMode 'CrossReference'   
+	@'$(AS_BIN_PATH)/4.9/BR.AS.AnalyseProject.exe' '$(AS_PROJECT_PATH)/FactoryIO_Storage.apj' -t '$(AS_TEMP_PATH)' -c '$(AS_CONFIGURATION)' -o '$(AS_BINARIES_PATH)'   -sfas -buildMode 'BuildAndTransfer'   
 

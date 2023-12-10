@@ -3,8 +3,16 @@
 <Transfer xmlns="http://br-automation.co.at/AS/Transfer">
   <OperatingSystem Version="B4.93"/>
   <Hardware Target="SG4"/>
-  <Operation Delete="Program.br"/>
+  <Operation Delete="_1200_CS1.br"/>
+  <Operation Delete="_1300_CS2.br"/>
+  <Operation Delete="_1400_SRS.br"/>
+  <Operation Delete="_1600_SSYS.br"/>
+  <Operation Delete="_1700_HMI.br"/>
+  <Operation Delete="_1500_PPS.br"/>
+  <Operation Delete="_1100_CSYS.br"/>
+  <Operation Delete="_1000_SCTR.br"/>
   <Operation Delete="mvLoader.br"/>
+  <Operation Delete="Library.br"/>
   <Operation Delete="asieccon.br"/>
   <Operation Delete="astime.br"/>
   <Operation Delete="fileio.br"/>
@@ -26,6 +34,14 @@
   <Operation Download="fileio.br" Memory="UserROM"/>
   <Operation Download="astime.br" Memory="UserROM"/>
   <Operation Download="asieccon.br" Memory="UserROM"/>
+  <Operation Download="Library.br" Memory="UserROM"/>
   <Operation Download="mvLoader.br" Memory="UserROM"/>
-  <Operation Download="Program.br" Memory="UserROM"/>
+  <Operation Download="_1000_SCTR.br" Memory="UserROM"/>
+  <Operation Download="_1100_CSYS.br" Memory="UserROM"/>
+  <Operation Download="_1500_PPS.br" Memory="UserROM"/>
+  <Operation Download="_1700_HMI.br" Memory="UserROM"/>
+  <Operation Download="_1600_SSYS.br" Memory="UserROM"/>
+  <Operation Download="_1400_SRS.br" Memory="UserROM"/>
+  <Operation Download="_1300_CS2.br" Memory="UserROM"/>
+  <Operation Download="_1200_CS1.br" Memory="UserROM"/>
 </Transfer>

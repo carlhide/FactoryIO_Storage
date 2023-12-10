@@ -1,23 +1,2 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Tags>
-  <Tag Type="INT32" Name="var_Counter" Description="" SourceVariable="var_Counter" SourceProgram="Program" SourceDatatype="DINT" SourceDerivationBaseDatatype="DINT">
-    <Format IsVector="False" IsArrayElement="False" Index="0" />
-    <Access IsProtected="False" Read="True" Write="True" />
-    <Values Manual="False" ManualValue="" />
-  </Tag>
-  <Tag Type="BOOLEAN" Name="var_StartOrder" Description="" SourceVariable="var_StartOrder" SourceProgram="Program" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
-    <Format IsVector="False" IsArrayElement="False" Index="0" />
-    <Access IsProtected="False" Read="True" Write="True" />
-    <Values Manual="False" ManualValue="" />
-  </Tag>
-  <Tag Type="BOOLEAN" Name="var_StartReq" Description="" SourceVariable="var_StartReq" SourceProgram="Program" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
-    <Format IsVector="False" IsArrayElement="False" Index="0" />
-    <Access IsProtected="False" Read="True" Write="True" />
-    <Values Manual="False" ManualValue="" />
-  </Tag>
-  <Tag Type="BOOLEAN" Name="var_StartReqPreviousState" Description="" SourceVariable="var_StartReqPreviousState" SourceProgram="Program" SourceDatatype="BOOL" SourceDerivationBaseDatatype="BOOL">
-    <Format IsVector="False" IsArrayElement="False" Index="0" />
-    <Access IsProtected="False" Read="True" Write="True" />
-    <Values Manual="False" ManualValue="" />
-  </Tag>
-</Tags>
+<Tags />

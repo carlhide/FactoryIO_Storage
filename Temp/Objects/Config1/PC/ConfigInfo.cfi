@@ -2,28 +2,102 @@
 <?AutomationStudio Version="4.12.2.93"?>
 <ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
   <TaskClass
-    Name="Cyclic#1" />
-  <TaskClass
-    Name="Cyclic#2" />
-  <TaskClass
-    Name="Cyclic#3" />
-  <TaskClass
-    Name="Cyclic#4">
+    Name="Cyclic#1">
     <Task
-      Name="_1200_CS1"
+      Name="_1000_SCTR"
       Disable="false"
-      Source="_1200_CS1"
+      Source="_1000_SCTRL"
+      Language="IEC">
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\Variables.var" />
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\Types.typ" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1000_SCTR\Init.st.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1000_SCTR\Exit.st.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1000_SCTR\_0000_States.st.var" />
+    </Task>
+    <Task
+      Name="_1100_CSYS"
+      Disable="false"
+      Source="_1100_CSYS"
+      Language="IEC">
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1100_CSYS\Variables.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1100_CSYS\_0000_States.st.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1100_CSYS\Init.st.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1100_CSYS\Exit.st.var" />
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1100_CSYS\Types.typ" />
+    </Task>
+    <Task
+      Name="_1500_PPS"
+      Disable="false"
+      Source="_1500_PPS"
       Language="IEC">
       <InternalFile
-        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1200_CS1\Init.st.var" />
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1500_PPS\Init.st.var" />
       <InternalFile
-        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1200_CS1\Exit.st.var" />
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1500_PPS\Exit.st.var" />
       <File
-        Path="C:\repos\local\FactoryIO_Storage\Logical\_1200_CS1\Types.typ" />
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Types.typ" />
       <File
-        Path="C:\repos\local\FactoryIO_Storage\Logical\_1200_CS1\Variables.var" />
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Variables.var" />
       <InternalFile
-        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1200_CS1\_0000_States.st.var" />
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1500_PPS\_0000_States.st.var" />
+    </Task>
+    <Task
+      Name="_1700_HMI"
+      Disable="false"
+      Source="_1700_HMI"
+      Language="IEC">
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1700_HMI\Init.st.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1700_HMI\Exit.st.var" />
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1700_HMI\Types.typ" />
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1700_HMI\Variables.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1700_HMI\_0000_States.st.var" />
+    </Task>
+    <Task
+      Name="_1600_SSYS"
+      Disable="false"
+      Source="_1600_SSYS"
+      Language="IEC">
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1600_SSYS\Init.st.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1600_SSYS\Exit.st.var" />
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1600_SSYS\Types.typ" />
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1600_SSYS\Variables.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1600_SSYS\_0000_States.st.var" />
+    </Task>
+    <Task
+      Name="_1400_SRS"
+      Disable="false"
+      Source="_1400_SRS"
+      Language="IEC">
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1400_SRS\Init.st.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1400_SRS\Exit.st.var" />
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1400_SRS\Types.typ" />
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1400_SRS\Variables.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1400_SRS\_0000_States.st.var" />
     </Task>
     <Task
       Name="_1300_CS2"
@@ -41,7 +115,29 @@
       <InternalFile
         Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1300_CS2\_0000_States.st.var" />
     </Task>
+    <Task
+      Name="_1200_CS1"
+      Disable="false"
+      Source="_1200_CS1"
+      Language="IEC">
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1200_CS1\Variables.var" />
+      <File
+        Path="C:\repos\local\FactoryIO_Storage\Logical\_1200_CS1\Types.typ" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1200_CS1\Init.st.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1200_CS1\Exit.st.var" />
+      <InternalFile
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1200_CS1\_0100_Controller.st.var" />
+    </Task>
   </TaskClass>
+  <TaskClass
+    Name="Cyclic#2" />
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4" />
   <TaskClass
     Name="Cyclic#5" />
   <TaskClass
