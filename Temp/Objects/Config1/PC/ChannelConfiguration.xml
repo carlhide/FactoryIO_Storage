@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 2.5.0.7?>
+<ChannelConfiguration xmlns="http://www.br-automation.com/AR/IO">
+  <Module ID="IF3.ST1" Hardware="OpcUa_any" HardwareModuleName="OpcUa_any" ModuleID="1">
+    <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Direction="IN" Type="BOOL" Sig_St_Bool="1" ArConfig="true" />
+    <Channel ID="ConnectionLostCount" Description="Connection errors since last boot" BrowsePath="internal" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
+    <Channel ID="ClientErrorCount" Description="Error counter for general client errors" BrowsePath="internal" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
+    <Channel ID="LastClientError" Description="Last client error" BrowsePath="internal" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
+  </Module>
+</ChannelConfiguration>

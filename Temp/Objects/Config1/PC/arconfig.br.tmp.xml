@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 1.0?>
+<IOCFG xmlns="http://www.br-automation.com/AR/IO" Version="2.0">
+  <Module ID="$root" Hardware="1A4000.00">
+    <Parameter ID="HardwareModuleName" Value="PC" />
+  </Module>
+  <Module ID="IF3.OPCUA" Hardware="OPCUA">
+    <Parameter ID="ActivateOpcUa" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF3.ST1" Hardware="OpcUa_any">
+    <Parameter ID="HardwareModuleName" Value="OpcUa_any" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="ServerDiagnostics" Value="off" />
+    <Parameter ID="ServerEndpointUrl" Value="opc.tcp://127.0.0.1:48020" />
+    <Parameter ID="PnPTimeout" Value="1000" Type="UINT" />
+    <Parameter ID="PnPInitTimeout" Value="10" Type="UINT" />
+    <Parameter ID="SecurityMsgMode" Value="1" Type="UDINT" />
+    <Parameter ID="SecurityPolicy" Value="1" Type="UDINT" />
+    <Parameter ID="UserIdentifyToken" Value="0" />
+    <Channel ID="ModuleOk">
+      <Parameter ID="Ext" Value="/OK" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+      <Parameter ID="Sig_St_Bool" Value="1" />
+    </Channel>
+    <Channel ID="ConnectionLostCount">
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+      <Parameter ID="BrowsePath" Value="internal" />
+      <Parameter ID="Sig_St_Udint" Value="1" />
+    </Channel>
+    <Channel ID="ClientErrorCount">
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+      <Parameter ID="BrowsePath" Value="internal" />
+      <Parameter ID="Sig_St_Udint" Value="1" />
+    </Channel>
+    <Channel ID="LastClientError">
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="UDINT" />
+      <Parameter ID="BrowsePath" Value="internal" />
+      <Parameter ID="Sig_St_Udint" Value="1" />
+    </Channel>
+  </Module>
+</IOCFG>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job._markerfile">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\opcuamap\opcuamap.uar">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\physical\config1\pc\connectivity\opcua\opcuamap.uad" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID=".mappView_Build">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID=".mappView_IntegrationBuild">
+    <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+</BuildReasons>

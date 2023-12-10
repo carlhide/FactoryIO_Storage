@@ -1,0 +1,3 @@
+VAR
+	gv_test : USINT;
+END_VAR

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Crossref Scope="Program" AppMod="">
+	<Vars>
+		<Var Name="Program.var_StartReq" Scope="Local" Type="BOOL">
+			<File Name="c:\repos\local\FactoryIO_Storage\Logical\Program\Cyclic.st">
+				<Pos L="3" C="5" PS="Ln:3, Col:5" A="R"/>
+				<Pos L="7" C="31" PS="Ln:7, Col:31" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Program.var_StartOrder" Scope="Local" Type="BOOL">
+			<File Name="c:\repos\local\FactoryIO_Storage\Logical\Program\Cyclic.st">
+				<Pos L="4" C="3" PS="Ln:4, Col:3" A="W"/>
+				<Pos L="4" C="25" PS="Ln:4, Col:25" A="R"/>
+				<Pos L="10" C="5" PS="Ln:10, Col:5" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Program.var_Counter" Scope="Local" Type="DINT">
+			<File Name="c:\repos\local\FactoryIO_Storage\Logical\Program\Cyclic.st">
+				<Pos L="5" C="3" PS="Ln:5, Col:3" A="W"/>
+				<Pos L="11" C="3" PS="Ln:11, Col:3" A="W"/>
+				<Pos L="11" C="18" PS="Ln:11, Col:18" A="R"/>
+			</File>
+		</Var>
+		<Var Name="Program.var_StartReqPreviousState" Scope="Local" Type="BOOL">
+			<File Name="c:\repos\local\FactoryIO_Storage\Logical\Program\Cyclic.st">
+				<Pos L="3" C="26" PS="Ln:3, Col:26" A="R"/>
+				<Pos L="7" C="2" PS="Ln:7, Col:2" A="W"/>
+			</File>
+		</Var>
+	</Vars>
+	<Consts>
+	</Consts>
+	<Enums>
+	</Enums>
+	<Funcs>
+	</Funcs>
+	<Actions>
+	</Actions>
+</Crossref>

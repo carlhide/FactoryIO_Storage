@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?AutomationRuntimeIOSystem Version="1.0"?>
+<IO xmlns="http://www.br-automation.com/AR/IO">
+<Links>
+<LN ID="%IX.IF3.ST1.ModuleOk" Type="BOOL">
+<Prod Device="IF3.ST1" DPName="ModuleOk" Kind="io"/>
+</LN>
+<LN ID="%ID.IF3.ST1.ConnectionLostCount" Type="UDINT">
+<Prod Device="IF3.ST1" DPName="ConnectionLostCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF3.ST1.ClientErrorCount" Type="UDINT">
+<Prod Device="IF3.ST1" DPName="ClientErrorCount" Kind="io"/>
+</LN>
+<LN ID="%ID.IF3.ST1.LastClientError" Type="UDINT">
+<Prod Device="IF3.ST1" DPName="LastClientError" Kind="io"/>
+</LN>
+</Links></IO>

@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/OpcTag.opct
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Libraries/operator/operator.var
+$(AS_PROJECT_PATH)/Logical/Libraries/runtime/runtime.var
+$(AS_PROJECT_PATH)/Logical/Libraries/astime/astime.var
+$(AS_PROJECT_PATH)/Logical/Libraries/AsIecCon/AsIecCon.var
+$(AS_PROJECT_PATH)/Logical/Program/Variables.var
