@@ -50,7 +50,7 @@ typedef struct UDT_HMI
 typedef struct UDT_Sequence
 {	plcbit Error;
 	plcbit Idle;
-	plcbit InProgess;
+	plcbit InProgress;
 	plcbit Requested;
 } UDT_Sequence;
 
@@ -186,31 +186,85 @@ typedef struct UDT_Global
 	struct UDT_SafetySystem SafetySystem;
 } UDT_Global;
 
+typedef struct UDT_Sequencer
+{	unsigned char OnEntryFlag;
+	unsigned char CurrectStep;
+	unsigned char NextStep;
+} UDT_Sequencer;
+
 typedef struct UDT_XYZCoordinate
 {	float X;
 	float Y;
 	float Z;
 } UDT_XYZCoordinate;
 
-typedef struct fb_MoveCrane
+typedef struct UDT_PPS
+{
+} UDT_PPS;
+
+typedef struct FB_Loader
 {
 	/* VAR_INPUT (analog) */
-	float PosX;
-	float PosY;
+	float in_rZActualPos;
+	float in_rXActualPos;
+	float in_rLoadDeltaZ;
 	/* VAR_OUTPUT (analog) */
-	struct UDT_Sequence State;
+	struct UDT_Sequence out_sStatus;
+	float out_rXSetPoint;
+	float out_rZSetPoint;
+	/* VAR (analog) */
+	signed long v_LoadSequence;
 	/* VAR_INPUT (digital) */
-	plcbit Interlock;
+	plcbit in_xLimitRight;
+	plcbit in_xLimitLeft;
+	plcbit in_xLimitMiddle;
+	plcbit in_xInterlock;
+	plcbit in_xMovingX;
+	plcbit in_xMovingZ;
+	plcbit in_xLoadRightReq;
+	plcbit in_xLoadLeftReq;
+	plcbit in_xUnloadRightReq;
+	plcbit in_xUnloadLeftReq;
 	/* VAR_OUTPUT (digital) */
-	plcbit ActuatorX;
-	plcbit ActuatorY;
-} fb_MoveCrane_typ;
+	plcbit out_xForksLeftOrder;
+	plcbit out_xForksRightOrder;
+	plcbit out_xLoaded;
+	/* VAR (digital) */
+	plcbit OperateRight;
+	plcbit OperateLeft;
+	plcbit Unload;
+	plcbit Load;
+	plcbit v_InPosition;
+} FB_Loader_typ;
+
+typedef struct FB_Crane
+{
+	/* VAR_INPUT (analog) */
+	float in_rXSetPointReq;
+	float in_rZSetPointReq;
+	float in_rZActualPos;
+	float in_rXActualPos;
+	/* VAR_OUTPUT (analog) */
+	struct UDT_Sequence out_sStatus;
+	float out_rXSetPoint;
+	float out_rZSetPoint;
+	/* VAR (analog) */
+	float PreviousXSetPoint;
+	float PreviousZSetPoint;
+	/* VAR_INPUT (digital) */
+	plcbit in_xInterlock;
+	/* VAR (digital) */
+	plcbit InPosition;
+	plcbit Interlock;
+	plcbit NewRequest;
+	plcbit FirstScan;
+} FB_Crane_typ;
 
 
 
 /* Prototyping of functions and function blocks */
-_BUR_PUBLIC void fb_MoveCrane(struct fb_MoveCrane* inst);
-_BUR_PUBLIC UDT_XYZCoordinate f_GetCoordinate(plcbit RowNbr, plcbit TierNbr);
+_BUR_PUBLIC void FB_Loader(struct FB_Loader* inst);
+_BUR_PUBLIC void FB_Crane(struct FB_Crane* inst);
 
 
 #ifdef __cplusplus

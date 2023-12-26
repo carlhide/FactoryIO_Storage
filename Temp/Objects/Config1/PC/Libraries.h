@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20231210230506_
-#define _LIBRARIES_20231210230506_
+#ifndef _LIBRARIES_20231226224400_
+#define _LIBRARIES_20231226224400_
 
 __asm__(".section \".plc\"");
 
@@ -466,12 +466,12 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/DataTypes.typ\\\" scope 
 	__asm__(".ascii \"plcexport \\\"WSTRING_TO_STRING\\\" FUN\\n\"");
 #endif
 #ifdef _LIBRARY_EXPORT
-	__asm__(".ascii \"plcexport \\\"fb_MoveCrane\\\" FUB\\n\"");
-	__asm__(".ascii \"plcexport \\\"f_GetCoordinate\\\" FUN\\n\"");
+	__asm__(".ascii \"plcexport \\\"FB_Loader\\\" FUB\\n\"");
+	__asm__(".ascii \"plcexport \\\"FB_Crane\\\" FUB\\n\"");
 #endif
 
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20231210230506_ */
+#endif /* _LIBRARIES_20231226224400_ */
 

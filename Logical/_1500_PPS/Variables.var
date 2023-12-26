@@ -1,56 +1,41 @@
-
 VAR
-
-	v_LeftLimitSwitch 		:BOOL;
-	v_MiddleLimitSwitch 	:BOOL;
-	v_RightLimitSwitch 		:BOOL;
-	v_MovingX				:BOOL;
-	v_MovingZ				:BOOL;
-	
-	v_PositionX				:REAL;
-	v_PositionZ 			:REAL;
-
-	v_CurrentState 			:DINT := 0;
-
-	v_ForksLeftExtendOrder 	:BOOL;
-	v_ForksRightExtendOrder :BOOL;
-	
-	v_CraneXAxisSetPoint 	:REAL;
-	v_CraneZAxisSetPoint 	:REAL;
-
-	v_InfeedPickupAndStoreReq :BOOL;
-	v_InPosition			:BOOL;
-	
-	v_WOInfeedPickUp		:BOOL;
-	v_WOStoragePickup		:BOOL;
-	v_WOStorageDropoff 		:BOOL;
-	v_WOOutfeedDropOff 		:BOOL;
-	
-	v_LoadSequence 			:DINT;
-	
-	v_Loaded 				:BOOL;
-	
-	PAR_HomeX 				:REAL;
-	PAR_HomeZ 				:REAL;
-	PAR_NbrOfTiers 			:DINT;
-	PAR_NbrOfRows 			:DINT;
-	
-	PAR_FirstBayPosX 		:REAL;
-	PAR_FirstBayPosZ 		:REAL;
-	
-	PAR_LastBayPosX 		:REAL;
-	PAR_LastBayPosZ 		:REAL;
-	
-	PAR_LoadOffLoadZDelta 	:REAL;
-
-	
-	
+	v_LeftLimitSwitch : BOOL;
+	v_MiddleLimitSwitch : BOOL;
+	v_RightLimitSwitch : BOOL;
+	v_MovingX : BOOL;
+	v_MovingZ : BOOL;
+	v_ActualPositionX : REAL;
+	v_ActualPositionZ : REAL;
+	v_ForksLeftExtendOrder : BOOL;
+	v_ForksRightExtendOrder : BOOL;
+	v_CraneXAxisSetPoint : REAL;
+	v_CraneZAxisSetPoint : REAL;
+	v_InfeedPickupAndStoreReq : BOOL; (* ************************************* *) (* TEST VARIABLES *) (* ************************************* *)
+	test_rPosXReq : REAL;
+	test_rPosZReq : REAL;
+	test_xLoadLeft : BOOL;
+	test_xUnloadRight : BOOL;
+	test_xLoadRight : BOOL;
+	test_xUnloadLeft : BOOL;
+	PAR_HomeX : REAL;
+	PAR_HomeZ : REAL;
+	PAR_NbrOfTiers : DINT;
+	PAR_NbrOfRows : DINT;
+	PAR_FirstBayPosX : REAL;
+	PAR_FirstBayPosZ : REAL;
+	PAR_LastBayPosX : REAL;
+	PAR_LastBayPosZ : REAL;
+	PAR_LoadOffLoadZDelta : REAL;
+	fb_Loader : FB_Loader;
+	fb_Crane : FB_Crane;
 END_VAR
-
 VAR CONSTANT
-	STS_Idle 			:DINT := 0;
-	STS_Load_Left 		:DINT := 1;
-	STS_Load_Right 		:DINT := 2;
-	STS_MoveToTarget 	:DINT := 3;
-	STS_Unload 			:DINT := 4;
+	STS_Idle : DINT := 0;
+	STS_Load_Left : DINT := 1;
+	STS_Load_Right : DINT := 2;
+	STS_MoveToTarget : DINT := 3;
+	STS_Unload : DINT := 4;
+END_VAR
+VAR
+	FirstScan : BOOL;
 END_VAR

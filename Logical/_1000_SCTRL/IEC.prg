@@ -6,6 +6,6 @@
     <File Description="Local data types" Private="true">Types.typ</File>
     <File Description="Init code">Init.st</File>
     <File Description="Exit code">Exit.st</File>
-    <File Description="Cyclic code">_0000_States.st</File>
+    <File Description="Cyclic code">_Controller__.st</File>
   </Files>
 </Program>

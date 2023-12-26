@@ -1,7 +1,7 @@
 {
   global:
-    fb_MoveCrane;
-    f_GetCoordinate;
+    FB_Loader;
+    FB_Crane;
   local:
     *;
  };

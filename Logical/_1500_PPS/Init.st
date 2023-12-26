@@ -16,5 +16,7 @@ PROGRAM _INIT
 	PAR_NbrOfRows := 9;
 	
 	PAR_LoadOffLoadZDelta := 0.100;
+	
+	
 	 
 END_PROGRAM

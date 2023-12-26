@@ -1,4 +1,4 @@
-void fb_MoveCrane(void) {};
-void _fb_MoveCrane(void) {};
-void f_GetCoordinate(void) {};
-void _f_GetCoordinate(void) {};
+void FB_Loader(void) {};
+void _FB_Loader(void) {};
+void FB_Crane(void) {};
+void _FB_Crane(void) {};

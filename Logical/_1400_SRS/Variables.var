@@ -1,6 +1,8 @@
 
 VAR
-
+	v_StorageTaken : ARRAY[1..8, 1..10] OF BOOL;	
+	
+	v_StorageCoordinates : ARRAY[1..8, 1..10] OF BOOL;		
 END_VAR
 
 VAR CONSTANT

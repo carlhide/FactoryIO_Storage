@@ -1,6 +1,0 @@
-VAR
-	var_StartReq : BOOL;
-	var_StartOrder : BOOL;
-	var_Counter : DINT;
-	var_StartReqPreviousState : BOOL;
-END_VAR

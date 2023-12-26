@@ -17,7 +17,7 @@
       <InternalFile
         Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1000_SCTR\Exit.st.var" />
       <InternalFile
-        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1000_SCTR\_0000_States.st.var" />
+        Path="C:\repos\local\FactoryIO_Storage\Temp\Objects\Config1\PC\_1000_SCTR\_Controller__.st.var" />
     </Task>
     <Task
       Name="_1100_CSYS"

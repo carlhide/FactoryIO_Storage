@@ -1,6 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/Library/Library.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/Library/SubState.typ
 $(AS_PROJECT_PATH)/Logical/_1500_PPS/Variables.var
 $(AS_PROJECT_PATH)/Logical/Global.var
 $(AS_PROJECT_PATH)/Logical/Libraries/Library/Modules.typ
-$(AS_PROJECT_PATH)/Logical/Libraries/Library/SubState.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Library/Global.typ
 $(AS_PROJECT_PATH)/Logical/Libraries/Library/OPC.typ

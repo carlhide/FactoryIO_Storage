@@ -10,5 +10,7 @@
     <File>States.typ</File>
     <File>SubState.typ</File>
     <File>DataTypes.typ</File>
+    <File>FB_Loader.st</File>
+    <File>FB_Crane.st</File>
   </Files>
 </Library>

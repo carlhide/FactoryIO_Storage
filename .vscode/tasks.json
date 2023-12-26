@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "BrAsBuild",
+			"problemMatcher": [
+				"$BrAsBuild"
+			],
+			"label": "BrAsBuild: Build as simulation",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

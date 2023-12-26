@@ -6,7 +6,7 @@ PROGRAM _CYCLIC
 	v_BoxAtLoad := NOT Opc.In.ConveyorInfeed.Opc_IO_AtLoad;
 	
     	// Module Inputs
-	v_OffloadingActive := Gv.PickAndPlaceSystem.Offloading.InProgess;
+	v_OffloadingActive := Gv.PickAndPlaceSystem.Offloading.InProgress;
 	
 	
 	CASE v_CurrentState OF
