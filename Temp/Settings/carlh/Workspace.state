@@ -27,6 +27,9 @@
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>
+  <TextEdit ID="C:\repos\local\FactoryIO_Storage\Logical\Libraries\Library\FB_Loader.st" CaretLine="17" CaretColumn="19" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
   <TextEdit ID="C:\repos\local\FactoryIO_Storage\Physical\Config1\PC\Connectivity\OpcUA\OpcUa.uanodeset" CaretLine="9" CaretColumn="44" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
@@ -54,22 +57,6 @@
     </SelectedNodes>
     <ZoomIndices />
   </TreeView>
-  <TreeView ID="MonitorTree" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
-    <Columns>
-      <Column Index="0" Width="130" Position="0" />
-      <Column Index="1" Width="50" Position="1" />
-      <Column Index="2" Width="65" Position="2" />
-      <Column Index="3" Width="65" Position="3" />
-      <Column Index="4" Width="60" Position="4" />
-      <Column Index="5" Width="180" Position="5" />
-      <Column Index="6" Width="70" Position="6" />
-      <Column Index="7" Width="40" Position="7" />
-      <Column Index="8" Width="0" Position="8" />
-    </Columns>
-    <ExpandedNodes />
-    <SelectedNodes />
-    <ZoomIndices />
-  </TreeView>
   <TreeView ID="SwConfiguration-ControllerTree" EditColumn="0" TopRow="0" HorizontalScrollOffset="0" SortedColumn="0">
     <Columns>
       <Column Index="0" Width="100" Position="0" />
@@ -85,9 +72,6 @@
     <SelectedNodes />
     <ZoomIndices />
   </TreeView>
-  <TextEdit ID="C:\repos\local\FactoryIO_Storage\Logical\Libraries\Library\FB_Loader.st" CaretLine="17" CaretColumn="19" FirstVisibleLine="1">
-    <Bookmarks />
-  </TextEdit>
   <TextEdit ID="C:\repos\local\FactoryIO_Storage\Logical\_1600_SSYS\Init.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
@@ -103,13 +87,16 @@
   <TextEdit ID="C:\repos\local\FactoryIO_Storage\Logical\_1100_CSYS\_0000_States.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
-  <TextEdit ID="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st" CaretLine="20" CaretColumn="7" FirstVisibleLine="7">
+  <TextEdit ID="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st" CaretLine="44" CaretColumn="2" FirstVisibleLine="36">
     <Bookmarks />
   </TextEdit>
   <TextEdit ID="C:\repos\local\FactoryIO_Storage\Logical\_1400_SRS\Variables.var" CaretLine="4" CaretColumn="2" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
   <TextEdit ID="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\_Controller__.st" CaretLine="3" CaretColumn="3" FirstVisibleLine="1">
+    <Bookmarks />
+  </TextEdit>
+  <TextEdit ID="C:\repos\local\FactoryIO_Storage\Logical\Libraries\Library\FB_Crane.st" CaretLine="1" CaretColumn="1" FirstVisibleLine="1">
     <Bookmarks />
   </TextEdit>
 </State>

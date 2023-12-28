@@ -10,7 +10,7 @@ VAR
 	v_ForksRightExtendOrder : BOOL;
 	v_CraneXAxisSetPoint : REAL;
 	v_CraneZAxisSetPoint : REAL;
-	v_InfeedPickupAndStoreReq : BOOL; (* ************************************* *) (* TEST VARIABLES *) (* ************************************* *)
+	v_InfeedPickupAndStoreReq : BOOL;
 	test_rPosXReq : REAL;
 	test_rPosZReq : REAL;
 	test_xLoadLeft : BOOL;
@@ -28,14 +28,26 @@ VAR
 	PAR_LoadOffLoadZDelta : REAL;
 	fb_Loader : FB_Loader;
 	fb_Crane : FB_Crane;
+	STS_Load_Left : {REDUND_UNREPLICABLE} DINT := 1;
+	STS_Load_Right : {REDUND_UNREPLICABLE} DINT := 2;
+	STS_MoveToTarget : {REDUND_UNREPLICABLE} DINT := 3;
+	STS_Unload : {REDUND_UNREPLICABLE} DINT := 4;
+	FirstScan : BOOL;
+	STS_PickAndPlace : UDT_Sequencer;
+	STS_Offload : INT;
+	STS_Store : INT;
+	STS_Load : INT;
 END_VAR
 VAR CONSTANT
-	STS_Idle : DINT := 0;
-	STS_Load_Left : DINT := 1;
-	STS_Load_Right : DINT := 2;
-	STS_MoveToTarget : DINT := 3;
-	STS_Unload : DINT := 4;
+	STS_Init : INT := 0;
+	STS_Idle : INT := 1;
+	STS_LoadFromConveyor : INT := 2;
+	STS_LoadFromStorage : INT := 3;
+	STS_OffloadInStorage : INT := 4;
+	STS_OffloadOnConveyour : INT := 5;
 END_VAR
 VAR
-	FirstScan : BOOL;
+	SEQ_LoadFromConveyor : UDT_Sequencer;
+	v_StorageFull : BOOL;
+	SQS_OffloadInStorage : UDT_Sequencer;
 END_VAR

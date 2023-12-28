@@ -41,6 +41,7 @@ typedef struct UDT_ConveyorOutfeedSystem
 
 typedef struct UDT_StorageRackSystem
 {	plcbit Dummy;
+	plcbit RequestCoordinates;
 } UDT_StorageRackSystem;
 
 typedef struct UDT_HMI
@@ -187,9 +188,9 @@ typedef struct UDT_Global
 } UDT_Global;
 
 typedef struct UDT_Sequencer
-{	unsigned char OnEntryFlag;
-	unsigned char CurrectStep;
-	unsigned char NextStep;
+{	plcbit OnEntryFlag;
+	signed short CurrentStep;
+	signed short NextStep;
 } UDT_Sequencer;
 
 typedef struct UDT_XYZCoordinate
@@ -197,10 +198,6 @@ typedef struct UDT_XYZCoordinate
 	float Y;
 	float Z;
 } UDT_XYZCoordinate;
-
-typedef struct UDT_PPS
-{
-} UDT_PPS;
 
 typedef struct FB_Loader
 {

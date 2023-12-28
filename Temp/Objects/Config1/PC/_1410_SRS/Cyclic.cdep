@@ -1,0 +1,15 @@
+$(AS_CPU_PATH)/_1410_srs/cyclic.cpp.o:
+$(AS_PROJECT_PATH)/logical/_1410_srs/cyclic.cpp
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/bur/plctypes.h
+$(AS_GNU_INST_PATH)/4.9/i386-elf/include/bur/plc.h
+$(AS_TEMP_PATH)/includes/_1410_srs/asdefault.h
+$(AS_TEMP_PATH)/includes/asdefault.h
+$(AS_TEMP_PATH)/includes/operator.h
+$(AS_TEMP_PATH)/includes/runtime.h
+$(AS_TEMP_PATH)/includes/astime.h
+$(AS_TEMP_PATH)/includes/asieccon.h
+$(AS_TEMP_PATH)/includes/library.h
+$(AS_TEMP_PATH)/includes/globaltyp.h
+$(AS_TEMP_PATH)/includes/globalvar.h
+$(AS_TEMP_PATH)/includes/_1410_srs/typestyp.h
+$(AS_TEMP_PATH)/includes/_1410_srs/variablesvar.h

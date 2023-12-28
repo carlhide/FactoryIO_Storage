@@ -4,10 +4,10 @@
   IecNamingConventions="true"
   IecKeywordsAsStructureMembers="false"
   IecExtendedConstants="true"
-  LogicalDirectory="C:\repos\local\FactoryIO_Storage\Logical\"
-  TempDirectory="C:\repos\local\FactoryIO_Storage\Temp\"
+  LogicalDirectory="c:\repos\local\FactoryIO_Storage\Logical\"
+  TempDirectory="c:\repos\local\FactoryIO_Storage\Temp\"
   AutomationStudioVersion="4.12.2.93"
   AutomationStudioEdition="Standard"
-  BuildCrossReference="false"
+  BuildCrossReference="true"
   ActiveConfiguration="Config1"
   CreateAnsiCDeclarations="false" />

@@ -12,3 +12,4 @@ $(AS_PROJECT_PATH)/Logical/_1600_SSYS/Variables.var
 $(AS_PROJECT_PATH)/Logical/_1400_SRS/Variables.var
 $(AS_PROJECT_PATH)/Logical/_1300_CS2/Variables.var
 $(AS_PROJECT_PATH)/Logical/_1200_CS1/Variables.var
+$(AS_PROJECT_PATH)/Logical/_1410_SRS/Variables.var

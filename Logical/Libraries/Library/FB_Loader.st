@@ -30,7 +30,7 @@ FUNCTION_BLOCK FB_Loader
 				END_IF;
 			1:
 				out_sStatus.InProgress := TRUE;
-				out_rZSetPoint := out_rZSetPoint - in_rLoadDeltaZ;
+				out_rZSetPoint := in_rZActualPos - in_rLoadDeltaZ;
 				v_LoadSequence := 2;
 			2:
 				IF v_InPosition THEN
@@ -52,7 +52,7 @@ FUNCTION_BLOCK FB_Loader
 				END_IF;	
 					
 			4:
-				out_rZSetPoint := out_rZSetPoint + in_rLoadDeltaZ*2;
+				out_rZSetPoint := in_rZActualPos + in_rLoadDeltaZ*2;
 				v_LoadSequence := 5;
 			5:
 				IF v_InPosition THEN
@@ -65,7 +65,7 @@ FUNCTION_BLOCK FB_Loader
 					v_LoadSequence := 7;
 				END_IF;
 			7:
-				out_rZSetPoint := out_rZSetPoint - in_rLoadDeltaZ;
+				out_rZSetPoint := in_rZActualPos - in_rLoadDeltaZ;
 				v_LoadSequence := 8;
 			8:
 				IF v_InPosition THEN
@@ -90,7 +90,7 @@ FUNCTION_BLOCK FB_Loader
 				END_IF;
 			1:
 				out_sStatus.InProgress := TRUE;
-				out_rZSetPoint := out_rZSetPoint + in_rLoadDeltaZ;
+				out_rZSetPoint := in_rZActualPos + in_rLoadDeltaZ;
 				v_LoadSequence := 2;
 			2:
 				IF v_InPosition THEN
@@ -109,7 +109,7 @@ FUNCTION_BLOCK FB_Loader
 					END_IF;
 				END_IF;
 			4:
-				out_rZSetPoint := out_rZSetPoint - in_rLoadDeltaZ * 2;
+				out_rZSetPoint := in_rZActualPos - in_rLoadDeltaZ * 2;
 				v_LoadSequence := 5;
 			5:
 				IF v_InPosition THEN
@@ -122,7 +122,7 @@ FUNCTION_BLOCK FB_Loader
 					v_LoadSequence := 7;
 				END_IF;
 			7:
-				out_rZSetPoint := out_rZSetPoint + in_rLoadDeltaZ;
+				out_rZSetPoint := in_rZActualPos + in_rLoadDeltaZ;
 				v_LoadSequence := 8;
 			8:
 				IF v_InPosition THEN

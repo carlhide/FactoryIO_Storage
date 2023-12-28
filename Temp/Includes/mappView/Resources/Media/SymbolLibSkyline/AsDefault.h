@@ -1,0 +1,6 @@
+#ifndef _MAPPVIEW_RESOURCES_MEDIA_SYMBOLLIBSKYLINE_DEFAULT_284448496
+#define _MAPPVIEW_RESOURCES_MEDIA_SYMBOLLIBSKYLINE_DEFAULT_284448496
+#include "../AsDefault.h"
+#include <bur/plctypes.h>
+#include <bur/plc.h>
+#endif

@@ -1,21 +1,18 @@
-Wed Dec 20 19:55:50 2023
+Thu Dec 28 20:01:03 2023
 COPYRIGHT (C) B&R Industrial Automation GmbH
 
-Wed Dec 20 19:55:50 2023
+Thu Dec 28 20:01:03 2023
 No ARsim registration found!
 
-Wed Dec 20 19:55:50 2023
-InstanceName: 0000005f3733d4ae
+Thu Dec 28 20:01:03 2023
+InstanceName: 000003dab73f41de
 
-Wed Dec 20 19:55:50 2023
+Thu Dec 28 20:01:03 2023
 WorkingDirectory: C:\repos\local\FactoryIO_Storage\Temp\Simulation\Config1\PC\
 
-Wed Dec 20 19:55:50 2023
+Thu Dec 28 20:01:03 2023
 COMMAND_COLDSTART
 
-Wed Dec 20 19:55:52 2023
+Thu Dec 28 20:01:05 2023
 Version: B4.93
-
-Wed Dec 20 20:12:42 2023
-COMMAND_TERMINATE
 
