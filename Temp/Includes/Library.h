@@ -23,48 +23,6 @@ typedef enum TSystemState
 	SafetyStop
 } TSystemState;
 
-typedef struct UDT_StorageController
-{	plcbit Dummy;
-} UDT_StorageController;
-
-typedef struct UDT_ControlSystem
-{	plcbit Dummy;
-} UDT_ControlSystem;
-
-typedef struct UDT_ConveyorInfeedSystem
-{	plcbit ReadyForOffload;
-} UDT_ConveyorInfeedSystem;
-
-typedef struct UDT_ConveyorOutfeedSystem
-{	plcbit ReadyForOnload;
-} UDT_ConveyorOutfeedSystem;
-
-typedef struct UDT_StorageRackSystem
-{	plcbit Dummy;
-	plcbit RequestCoordinates;
-} UDT_StorageRackSystem;
-
-typedef struct UDT_HMI
-{	plcbit Dummy;
-} UDT_HMI;
-
-typedef struct UDT_Sequence
-{	plcbit Error;
-	plcbit Idle;
-	plcbit InProgress;
-	plcbit Requested;
-} UDT_Sequence;
-
-typedef struct UDT_PickAndPlaceSystem
-{	struct UDT_Sequence Offloading;
-	struct UDT_Sequence Loading;
-} UDT_PickAndPlaceSystem;
-
-typedef struct UDT_SafetySystem
-{	plcbit SafetyStop;
-	plcbit ControlledStop;
-} UDT_SafetySystem;
-
 typedef struct UDT_StorageControllerInput
 {	plcbit Opc_IO_Factory_Reset;
 	plcbit Opc_IO_Factory_Running;
@@ -176,6 +134,78 @@ typedef struct UDT_Opc
 	struct UDT_OpcOutput Out;
 } UDT_Opc;
 
+typedef struct UDT_StorageController
+{	plcbit Dummy;
+} UDT_StorageController;
+
+typedef struct UDT_ControlSystem
+{	plcbit Dummy;
+} UDT_ControlSystem;
+
+typedef struct UDT_ConveyorInfeedSystem
+{	plcbit ReadyForOffload;
+} UDT_ConveyorInfeedSystem;
+
+typedef struct UDT_ConveyorOutfeedSystem
+{	plcbit ReadyForOnload;
+} UDT_ConveyorOutfeedSystem;
+
+typedef struct TCoordinate
+{	float x;
+	float z;
+} TCoordinate;
+
+typedef struct TBoxData
+{	plcstring id[81];
+	float weight;
+	plcbit isvalid;
+} TBoxData;
+
+typedef struct TStorageSlot
+{	signed short number;
+	struct TCoordinate coordinate;
+	plcbit available;
+	struct TBoxData box;
+} TStorageSlot;
+
+typedef struct UDT_StorageRackSystem
+{	plcbit Dummy;
+	plcbit StoragePlaceRequest;
+	struct TStorageSlot StoragePlaceAcknowledge;
+} UDT_StorageRackSystem;
+
+typedef struct UDT_HMI
+{	plcbit Dummy;
+} UDT_HMI;
+
+typedef struct UDT_Sequence
+{	plcbit Error;
+	plcbit Idle;
+	plcbit InProgress;
+	plcbit Requested;
+} UDT_Sequence;
+
+typedef struct UDT_PickAndPlaceSystem
+{	struct UDT_Sequence Offloading;
+	struct UDT_Sequence Loading;
+	float ActualPositionX;
+	float ActualPositionZ;
+} UDT_PickAndPlaceSystem;
+
+typedef struct UDT_SafetySystem
+{	plcbit SafetyStop;
+	plcbit ControlledStop;
+} UDT_SafetySystem;
+
+typedef struct TParameters
+{	signed short StorageSizeX;
+	signed short StorageSizeZ;
+	float FirstSlotXPos;
+	float FirstSlotZPos;
+	float LastSlotXPos;
+	float LastSlotZPos;
+} TParameters;
+
 typedef struct UDT_Global
 {	struct UDT_StorageController StorageController;
 	struct UDT_ControlSystem ControlSystem;
@@ -185,6 +215,7 @@ typedef struct UDT_Global
 	struct UDT_HMI HMI;
 	struct UDT_PickAndPlaceSystem PickAndPlaceSystem;
 	struct UDT_SafetySystem SafetySystem;
+	struct TParameters Params;
 } UDT_Global;
 
 typedef struct UDT_Sequencer

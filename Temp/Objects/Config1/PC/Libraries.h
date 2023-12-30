@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _LIBRARIES_20231228232704_
-#define _LIBRARIES_20231228232704_
+#ifndef _LIBRARIES_20231231004748_
+#define _LIBRARIES_20231231004748_
 
 __asm__(".section \".plc\"");
 
@@ -23,7 +23,7 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/Global_Module.typ\\\" sc
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/Constants.var\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/Library.fun\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/OPC.typ\\\" scope \\\"global\\\"\\n\"");
-__asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/Global.typ\\\" scope \\\"global\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/GV.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/States.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/Sequence.typ\\\" scope \\\"global\\\"\\n\"");
 __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/DataTypes.typ\\\" scope \\\"global\\\"\\n\"");
@@ -474,5 +474,5 @@ __asm__(".ascii \"iecfile \\\"Logical/Libraries/Library/StorageUdts.typ\\\" scop
 __asm__(".previous");
 
 
-#endif /* _LIBRARIES_20231228232704_ */
+#endif /* _LIBRARIES_20231231004748_ */
 

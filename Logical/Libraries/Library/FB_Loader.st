@@ -9,7 +9,7 @@ FUNCTION_BLOCK FB_Loader
 	OperateLeft := in_xUnloadLeftReq OR in_xLoadLeftReq;
 	OperateRight := in_xUnloadRightReq OR in_xLoadRightReq;
 	
-	IF NOT out_sStatus.InProgress AND NOT (in_xLoadLeftReq OR in_xLoadLeftReq OR in_xUnloadLeftReq OR in_xLoadLeftReq) THEN
+	IF NOT out_sStatus.InProgress AND NOT (in_xLoadRightReq OR in_xLoadLeftReq OR in_xUnloadLeftReq OR in_xUnloadRightReq) THEN
 		v_LoadSequence := 0;
 		out_sStatus.InProgress := FALSE;
 		out_sStatus.Idle := TRUE;

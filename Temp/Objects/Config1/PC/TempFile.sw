@@ -10,12 +10,12 @@
     <Task Name="_1400_SRS" Source="_1400_SRS.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="_1300_CS2" Source="_1300_CS2.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="_1200_CS1" Source="_1200_CS1.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="_1410_SRS" Source="_1410_SRS.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
+    <Task Name="_1010_SCTR" Source="_1010_SCTRL.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#2" />
   <TaskClass Name="Cyclic#3" />
-  <TaskClass Name="Cyclic#4">
-    <Task Name="_1410_SRS" Source="_1410_SRS.prg" Memory="UserROM" Language="ANSIC" Debugging="true" />
-  </TaskClass>
+  <TaskClass Name="Cyclic#4" />
   <TaskClass Name="Cyclic#5" />
   <TaskClass Name="Cyclic#6" />
   <TaskClass Name="Cyclic#7" />
@@ -24,6 +24,7 @@
     <BinaryObject Name="udbdef" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="FWRules" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="TCData" Source="" Memory="SystemROM" Language="Binary" />
+    <BinaryObject Name="mvLoader" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="sysconf" Source="" Memory="SystemROM" Language="Binary" />
     <BinaryObject Name="Role" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="User" Source="" Memory="UserROM" Language="Binary" />
@@ -38,5 +39,7 @@
     <LibraryObject Name="runtime" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="astime" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
     <LibraryObject Name="asieccon" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="fileio" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
+    <LibraryObject Name="arssl" Source="" Memory="UserROM" Language="Binary" Debugging="true" />
   </Libraries>
 </SwConfiguration>

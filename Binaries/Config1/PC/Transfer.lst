@@ -45,4 +45,5 @@
   <Operation Download="_1300_CS2.br" Memory="UserROM"/>
   <Operation Download="_1200_CS1.br" Memory="UserROM"/>
   <Operation Download="_1410_SRS.br" Memory="UserROM"/>
+  <Operation Download="_1010_SCTR.br" Memory="UserROM"/>
 </Transfer>

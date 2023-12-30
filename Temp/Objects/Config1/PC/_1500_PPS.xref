@@ -3,81 +3,84 @@
   <Vars>
     <Var Name="_1500_PPS.v_LeftLimitSwitch" Scope="Local" Type="BOOL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="29" C="2" PS="Ln:29, Col:2" A="W" />
-        <Pos L="47" C="22" PS="Ln:47, Col:22" A="R" />
+        <Pos L="12" C="2" PS="Ln:12, Col:2" A="W" />
+        <Pos L="30" C="22" PS="Ln:30, Col:22" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.v_MiddleLimitSwitch" Scope="Local" Type="BOOL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="30" C="2" PS="Ln:30, Col:2" A="W" />
-        <Pos L="48" C="24" PS="Ln:48, Col:24" A="R" />
+        <Pos L="13" C="2" PS="Ln:13, Col:2" A="W" />
+        <Pos L="31" C="24" PS="Ln:31, Col:24" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.v_RightLimitSwitch" Scope="Local" Type="BOOL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="31" C="2" PS="Ln:31, Col:2" A="W" />
-        <Pos L="46" C="21" PS="Ln:46, Col:21" A="R" />
+        <Pos L="14" C="2" PS="Ln:14, Col:2" A="W" />
+        <Pos L="29" C="21" PS="Ln:29, Col:21" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.v_MovingX" Scope="Local" Type="BOOL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="32" C="2" PS="Ln:32, Col:2" A="W" />
-        <Pos L="52" C="20" PS="Ln:52, Col:20" A="R" />
+        <Pos L="15" C="2" PS="Ln:15, Col:2" A="W" />
+        <Pos L="35" C="20" PS="Ln:35, Col:20" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.v_MovingZ" Scope="Local" Type="BOOL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="33" C="2" PS="Ln:33, Col:2" A="W" />
-        <Pos L="53" C="20" PS="Ln:53, Col:20" A="R" />
+        <Pos L="16" C="2" PS="Ln:16, Col:2" A="W" />
+        <Pos L="36" C="20" PS="Ln:36, Col:20" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.v_ActualPositionX" Scope="Local" Type="REAL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="34" C="2" PS="Ln:34, Col:2" A="W" />
-        <Pos L="41" C="29" PS="Ln:41, Col:29" A="R" />
-        <Pos L="50" C="23" PS="Ln:50, Col:23" A="R" />
+        <Pos L="17" C="2" PS="Ln:17, Col:2" A="W" />
+        <Pos L="24" C="29" PS="Ln:24, Col:29" A="R" />
+        <Pos L="33" C="23" PS="Ln:33, Col:23" A="R" />
+        <Pos L="233" C="43" PS="Ln:233, Col:43" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.v_ActualPositionZ" Scope="Local" Type="REAL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="35" C="2" PS="Ln:35, Col:2" A="W" />
-        <Pos L="42" C="23" PS="Ln:42, Col:23" A="R" />
-        <Pos L="51" C="23" PS="Ln:51, Col:23" A="R" />
+        <Pos L="18" C="2" PS="Ln:18, Col:2" A="W" />
+        <Pos L="25" C="23" PS="Ln:25, Col:23" A="R" />
+        <Pos L="34" C="23" PS="Ln:34, Col:23" A="R" />
+        <Pos L="234" C="43" PS="Ln:234, Col:43" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.v_ForksLeftExtendOrder" Scope="Local" Type="BOOL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="183" C="2" PS="Ln:183, Col:2" A="W" />
-        <Pos L="191" C="45" PS="Ln:191, Col:45" A="R" />
+        <Pos L="229" C="2" PS="Ln:229, Col:2" A="W" />
+        <Pos L="241" C="46" PS="Ln:241, Col:46" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.v_ForksRightExtendOrder" Scope="Local" Type="BOOL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="184" C="2" PS="Ln:184, Col:2" A="W" />
-        <Pos L="192" C="46" PS="Ln:192, Col:46" A="R" />
+        <Pos L="230" C="2" PS="Ln:230, Col:2" A="W" />
+        <Pos L="242" C="47" PS="Ln:242, Col:47" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.v_CraneXAxisSetPoint" Scope="Local" Type="REAL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="185" C="2" PS="Ln:185, Col:2" A="W" />
+        <Pos L="231" C="2" PS="Ln:231, Col:2" A="W" />
       </File>
     </Var>
     <Var Name="_1500_PPS.v_CraneZAxisSetPoint" Scope="Local" Type="REAL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="186" C="2" PS="Ln:186, Col:2" A="W" />
+        <Pos L="232" C="2" PS="Ln:232, Col:2" A="W" />
       </File>
     </Var>
     <Var Name="_1500_PPS.v_InfeedPickupAndStoreReq" Scope="Local" Type="BOOL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="38" C="2" PS="Ln:38, Col:2" A="W" />
-        <Pos L="63" C="7" PS="Ln:63, Col:7" A="R" />
+        <Pos L="21" C="2" PS="Ln:21, Col:2" A="W" />
+        <Pos L="72" C="7" PS="Ln:72, Col:7" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.PAR_HomeX" Scope="Local" Type="REAL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="7" C="3" PS="Ln:7, Col:3" A="W" />
-        <Pos L="9" C="32" PS="Ln:9, Col:32" A="R" />
-        <Pos L="73" C="36" PS="Ln:73, Col:36" A="R" />
+        <Pos L="42" C="3" PS="Ln:42, Col:3" A="W" />
+        <Pos L="44" C="32" PS="Ln:44, Col:32" A="R" />
+        <Pos L="68" C="34" PS="Ln:68, Col:34" A="R" />
+        <Pos L="82" C="36" PS="Ln:82, Col:36" A="R" />
       </File>
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Init.st">
         <Pos L="6" C="2" PS="Ln:6, Col:2" A="W" />
@@ -85,9 +88,10 @@
     </Var>
     <Var Name="_1500_PPS.PAR_HomeZ" Scope="Local" Type="REAL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="8" C="3" PS="Ln:8, Col:3" A="W" />
-        <Pos L="10" C="32" PS="Ln:10, Col:32" A="R" />
-        <Pos L="74" C="36" PS="Ln:74, Col:36" A="R" />
+        <Pos L="43" C="3" PS="Ln:43, Col:3" A="W" />
+        <Pos L="45" C="32" PS="Ln:45, Col:32" A="R" />
+        <Pos L="69" C="34" PS="Ln:69, Col:34" A="R" />
+        <Pos L="83" C="36" PS="Ln:83, Col:36" A="R" />
       </File>
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Init.st">
         <Pos L="7" C="2" PS="Ln:7, Col:2" A="W" />
@@ -95,8 +99,8 @@
     </Var>
     <Var Name="_1500_PPS.PAR_LoadOffLoadZDelta" Scope="Local" Type="REAL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="6" C="3" PS="Ln:6, Col:3" A="W" />
-        <Pos L="54" C="23" PS="Ln:54, Col:23" A="R" />
+        <Pos L="37" C="23" PS="Ln:37, Col:23" A="R" />
+        <Pos L="41" C="3" PS="Ln:41, Col:3" A="W" />
       </File>
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\Init.st">
         <Pos L="18" C="2" PS="Ln:18, Col:2" A="W" />
@@ -104,222 +108,302 @@
     </Var>
     <Var Name="_1500_PPS.fb_Loader" Scope="Local" Type="FB_Loader">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="45" C="2" PS="Ln:45, Col:2" A="RW" />
+        <Pos L="28" C="2" PS="Ln:28, Col:2" A="RW" />
       </File>
     </Var>
     <Var Name="_1500_PPS.fb_Loader.in_xLoadLeftReq" Scope="Local" Type="FB_Loader">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="81" C="6" PS="Ln:81, Col:6" A="W" />
+        <Pos L="93" C="6" PS="Ln:93, Col:6" A="W" />
+        <Pos L="96" C="7" PS="Ln:96, Col:7" A="W" />
       </File>
     </Var>
     <Var Name="_1500_PPS.fb_Loader.out_xLoaded" Scope="Local" Type="FB_Loader">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="83" C="9" PS="Ln:83, Col:9" A="R" />
-        <Pos L="95" C="6" PS="Ln:95, Col:6" A="R" />
+        <Pos L="95" C="9" PS="Ln:95, Col:9" A="R" />
+        <Pos L="115" C="6" PS="Ln:115, Col:6" A="R" />
+        <Pos L="173" C="54" PS="Ln:173, Col:54" A="R" />
+      </File>
+    </Var>
+    <Var Name="_1500_PPS.fb_Loader.in_xUnloadRightReq" Scope="Local" Type="FB_Loader">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
+        <Pos L="170" C="6" PS="Ln:170, Col:6" A="W" />
+        <Pos L="174" C="7" PS="Ln:174, Col:7" A="W" />
       </File>
     </Var>
     <Var Name="_1500_PPS.fb_Loader.out_xForksLeftOrder" Scope="Local" Type="FB_Loader">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="183" C="28" PS="Ln:183, Col:28" A="R" />
+        <Pos L="229" C="28" PS="Ln:229, Col:28" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.fb_Loader.out_xForksRightOrder" Scope="Local" Type="FB_Loader">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="184" C="29" PS="Ln:184, Col:29" A="R" />
+        <Pos L="230" C="29" PS="Ln:230, Col:29" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.fb_Loader.out_rXSetPoint" Scope="Local" Type="FB_Loader">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="185" C="26" PS="Ln:185, Col:26" A="R" />
+        <Pos L="231" C="26" PS="Ln:231, Col:26" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.fb_Loader.out_rZSetPoint" Scope="Local" Type="FB_Loader">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="186" C="26" PS="Ln:186, Col:26" A="R" />
-        <Pos L="198" C="49" PS="Ln:198, Col:49" A="R" />
+        <Pos L="232" C="26" PS="Ln:232, Col:26" A="R" />
+        <Pos L="248" C="50" PS="Ln:248, Col:50" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.fb_Loader.out_sStatus.InProgress" Scope="Local" Type="FB_Loader">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="197" C="8" PS="Ln:197, Col:8" A="R" />
-      </File>
-    </Var>
-    <Var Name="_1500_PPS.fb_Crane.in_rXSetPointReq" Scope="Local" Type="FB_Crane">
-      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="9" C="3" PS="Ln:9, Col:3" A="W" />
-        <Pos L="73" C="7" PS="Ln:73, Col:7" A="W" />
-      </File>
-    </Var>
-    <Var Name="_1500_PPS.fb_Crane.in_rZSetPointReq" Scope="Local" Type="FB_Crane">
-      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="10" C="3" PS="Ln:10, Col:3" A="W" />
-        <Pos L="74" C="7" PS="Ln:74, Col:7" A="W" />
+        <Pos L="247" C="9" PS="Ln:247, Col:9" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.fb_Crane" Scope="Local" Type="FB_Crane">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="41" C="2" PS="Ln:41, Col:2" A="RW" />
+        <Pos L="24" C="2" PS="Ln:24, Col:2" A="RW" />
+      </File>
+    </Var>
+    <Var Name="_1500_PPS.fb_Crane.in_rXSetPointReq" Scope="Local" Type="FB_Crane">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
+        <Pos L="44" C="3" PS="Ln:44, Col:3" A="W" />
+        <Pos L="68" C="5" PS="Ln:68, Col:5" A="W" />
+        <Pos L="82" C="7" PS="Ln:82, Col:7" A="W" />
+        <Pos L="142" C="7" PS="Ln:142, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="_1500_PPS.fb_Crane.in_rZSetPointReq" Scope="Local" Type="FB_Crane">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
+        <Pos L="45" C="3" PS="Ln:45, Col:3" A="W" />
+        <Pos L="69" C="5" PS="Ln:69, Col:5" A="W" />
+        <Pos L="83" C="7" PS="Ln:83, Col:7" A="W" />
+        <Pos L="143" C="7" PS="Ln:143, Col:7" A="W" />
       </File>
     </Var>
     <Var Name="_1500_PPS.fb_Crane.out_sStatus.Idle" Scope="Local" Type="FB_Crane">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="77" C="9" PS="Ln:77, Col:9" A="R" />
-        <Pos L="112" C="9" PS="Ln:112, Col:9" A="R" />
+        <Pos L="86" C="9" PS="Ln:86, Col:9" A="R" />
+        <Pos L="161" C="9" PS="Ln:161, Col:9" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.fb_Crane.out_rXSetPoint" Scope="Local" Type="FB_Crane">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="194" C="48" PS="Ln:194, Col:48" A="R" />
+        <Pos L="244" C="49" PS="Ln:244, Col:49" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.fb_Crane.out_sStatus.InProgress" Scope="Local" Type="FB_Crane">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="195" C="5" PS="Ln:195, Col:5" A="R" />
+        <Pos L="245" C="6" PS="Ln:245, Col:6" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.fb_Crane.out_rZSetPoint" Scope="Local" Type="FB_Crane">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="196" C="49" PS="Ln:196, Col:49" A="R" />
+        <Pos L="246" C="50" PS="Ln:246, Col:50" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.FirstScan" Scope="Local" Type="BOOL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="4" C="5" PS="Ln:4, Col:5" A="R" />
-        <Pos L="5" C="3" PS="Ln:5, Col:3" A="W" />
+        <Pos L="39" C="5" PS="Ln:39, Col:5" A="R" />
+        <Pos L="40" C="3" PS="Ln:40, Col:3" A="W" />
       </File>
     </Var>
     <Var Name="_1500_PPS.STS_PickAndPlace.CurrentStep" Scope="Local" Type="UDT_Sequencer">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="57" C="7" PS="Ln:57, Col:7" A="R" />
-        <Pos L="154" C="34" PS="Ln:154, Col:34" A="R" />
-        <Pos L="155" C="3" PS="Ln:155, Col:3" A="W" />
+        <Pos L="60" C="7" PS="Ln:60, Col:7" A="R" />
+        <Pos L="200" C="34" PS="Ln:200, Col:34" A="R" />
+        <Pos L="201" C="3" PS="Ln:201, Col:3" A="W" />
       </File>
     </Var>
     <Var Name="_1500_PPS.STS_PickAndPlace.NextStep" Scope="Local" Type="UDT_Sequencer">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="60" C="4" PS="Ln:60, Col:4" A="W" />
-        <Pos L="64" C="5" PS="Ln:64, Col:5" A="W" />
-        <Pos L="154" C="5" PS="Ln:154, Col:5" A="R" />
-        <Pos L="155" C="35" PS="Ln:155, Col:35" A="R" />
+        <Pos L="63" C="4" PS="Ln:63, Col:4" A="W" />
+        <Pos L="73" C="5" PS="Ln:73, Col:5" A="W" />
+        <Pos L="105" C="6" PS="Ln:105, Col:6" A="W" />
+        <Pos L="182" C="6" PS="Ln:182, Col:6" A="W" />
+        <Pos L="200" C="5" PS="Ln:200, Col:5" A="R" />
+        <Pos L="201" C="35" PS="Ln:201, Col:35" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.STS_PickAndPlace.OnEntryFlag" Scope="Local" Type="UDT_Sequencer">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="156" C="3" PS="Ln:156, Col:3" A="W" />
+        <Pos L="66" C="7" PS="Ln:66, Col:7" A="R" />
+        <Pos L="67" C="5" PS="Ln:67, Col:5" A="W" />
+        <Pos L="120" C="7" PS="Ln:120, Col:7" A="R" />
+        <Pos L="121" C="5" PS="Ln:121, Col:5" A="W" />
+        <Pos L="202" C="3" PS="Ln:202, Col:3" A="W" />
+      </File>
+    </Var>
+    <Var Name="_1500_PPS.v_xTest" Scope="Local" Type="BOOL">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
+        <Pos L="46" C="3" PS="Ln:46, Col:3" A="W" />
+        <Pos L="239" C="9" PS="Ln:239, Col:9" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.SEQ_LoadFromConveyor.CurrentStep" Scope="Local" Type="UDT_Sequencer">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="69" C="9" PS="Ln:69, Col:9" A="R" />
-        <Pos L="78" C="40" PS="Ln:78, Col:40" A="R" />
-        <Pos L="89" C="7" PS="Ln:89, Col:7" A="R" />
-        <Pos L="90" C="5" PS="Ln:90, Col:5" A="W" />
+        <Pos L="78" C="9" PS="Ln:78, Col:9" A="R" />
+        <Pos L="87" C="40" PS="Ln:87, Col:40" A="R" />
+        <Pos L="97" C="40" PS="Ln:97, Col:40" A="R" />
+        <Pos L="109" C="7" PS="Ln:109, Col:7" A="R" />
+        <Pos L="110" C="5" PS="Ln:110, Col:5" A="W" />
       </File>
     </Var>
     <Var Name="_1500_PPS.SEQ_LoadFromConveyor.OnEntryFlag" Scope="Local" Type="UDT_Sequencer">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="71" C="9" PS="Ln:71, Col:9" A="R" />
-        <Pos L="72" C="7" PS="Ln:72, Col:7" A="W" />
-        <Pos L="77" C="43" PS="Ln:77, Col:43" A="R" />
-        <Pos L="83" C="39" PS="Ln:83, Col:39" A="R" />
-        <Pos L="91" C="5" PS="Ln:91, Col:5" A="W" />
-        <Pos L="95" C="36" PS="Ln:95, Col:36" A="R" />
+        <Pos L="80" C="9" PS="Ln:80, Col:9" A="R" />
+        <Pos L="81" C="7" PS="Ln:81, Col:7" A="W" />
+        <Pos L="86" C="43" PS="Ln:86, Col:43" A="R" />
+        <Pos L="90" C="9" PS="Ln:90, Col:9" A="R" />
+        <Pos L="91" C="7" PS="Ln:91, Col:7" A="W" />
+        <Pos L="95" C="39" PS="Ln:95, Col:39" A="R" />
+        <Pos L="101" C="9" PS="Ln:101, Col:9" A="R" />
+        <Pos L="102" C="7" PS="Ln:102, Col:7" A="W" />
+        <Pos L="111" C="5" PS="Ln:111, Col:5" A="W" />
+        <Pos L="115" C="36" PS="Ln:115, Col:36" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.SEQ_LoadFromConveyor.NextStep" Scope="Local" Type="UDT_Sequencer">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="78" C="7" PS="Ln:78, Col:7" A="W" />
-        <Pos L="84" C="7" PS="Ln:84, Col:7" A="W" />
-        <Pos L="89" C="43" PS="Ln:89, Col:43" A="R" />
-        <Pos L="90" C="41" PS="Ln:90, Col:41" A="R" />
-        <Pos L="96" C="4" PS="Ln:96, Col:4" A="W" />
+        <Pos L="87" C="7" PS="Ln:87, Col:7" A="W" />
+        <Pos L="97" C="7" PS="Ln:97, Col:7" A="W" />
+        <Pos L="104" C="6" PS="Ln:104, Col:6" A="W" />
+        <Pos L="109" C="43" PS="Ln:109, Col:43" A="R" />
+        <Pos L="110" C="41" PS="Ln:110, Col:41" A="R" />
+        <Pos L="116" C="4" PS="Ln:116, Col:4" A="W" />
       </File>
     </Var>
     <Var Name="_1500_PPS.v_StorageFull" Scope="Local" Type="BOOL">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="39" C="2" PS="Ln:39, Col:2" A="W" />
-        <Pos L="63" C="41" PS="Ln:63, Col:41" A="R" />
-      </File>
-    </Var>
-    <Var Name="_1500_PPS.SQS_OffloadInStorage.CurrentStep" Scope="Local" Type="UDT_Sequencer">
-      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="100" C="9" PS="Ln:100, Col:9" A="R" />
-        <Pos L="113" C="40" PS="Ln:113, Col:40" A="R" />
+        <Pos L="22" C="2" PS="Ln:22, Col:2" A="W" />
+        <Pos L="72" C="41" PS="Ln:72, Col:41" A="R" />
       </File>
     </Var>
     <Var Name="_1500_PPS.SQS_OffloadInStorage.OnEntryFlag" Scope="Local" Type="UDT_Sequencer">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="103" C="9" PS="Ln:103, Col:9" A="R" />
-        <Pos L="107" C="7" PS="Ln:107, Col:7" A="W" />
-        <Pos L="112" C="43" PS="Ln:112, Col:43" A="R" />
-        <Pos L="116" C="9" PS="Ln:116, Col:9" A="R" />
-        <Pos L="117" C="7" PS="Ln:117, Col:7" A="W" />
+        <Pos L="122" C="5" PS="Ln:122, Col:5" A="W" />
+        <Pos L="127" C="9" PS="Ln:127, Col:9" A="R" />
+        <Pos L="128" C="7" PS="Ln:128, Col:7" A="W" />
+        <Pos L="135" C="13" PS="Ln:135, Col:13" A="R" />
+        <Pos L="140" C="9" PS="Ln:140, Col:9" A="R" />
+        <Pos L="141" C="7" PS="Ln:141, Col:7" A="W" />
+        <Pos L="148" C="13" PS="Ln:148, Col:13" A="R" />
+        <Pos L="155" C="9" PS="Ln:155, Col:9" A="R" />
+        <Pos L="156" C="7" PS="Ln:156, Col:7" A="W" />
+        <Pos L="166" C="9" PS="Ln:166, Col:9" A="R" />
+        <Pos L="167" C="7" PS="Ln:167, Col:7" A="W" />
+        <Pos L="173" C="13" PS="Ln:173, Col:13" A="R" />
+        <Pos L="187" C="5" PS="Ln:187, Col:5" A="W" />
+      </File>
+    </Var>
+    <Var Name="_1500_PPS.SQS_OffloadInStorage.CurrentStep" Scope="Local" Type="UDT_Sequencer">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
+        <Pos L="124" C="9" PS="Ln:124, Col:9" A="R" />
+        <Pos L="136" C="40" PS="Ln:136, Col:40" A="R" />
+        <Pos L="150" C="40" PS="Ln:150, Col:40" A="R" />
+        <Pos L="162" C="40" PS="Ln:162, Col:40" A="R" />
+        <Pos L="177" C="40" PS="Ln:177, Col:40" A="R" />
+        <Pos L="185" C="7" PS="Ln:185, Col:7" A="R" />
+        <Pos L="186" C="5" PS="Ln:186, Col:5" A="W" />
       </File>
     </Var>
     <Var Name="_1500_PPS.SQS_OffloadInStorage.NextStep" Scope="Local" Type="UDT_Sequencer">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="113" C="7" PS="Ln:113, Col:7" A="W" />
+        <Pos L="136" C="7" PS="Ln:136, Col:7" A="W" />
+        <Pos L="150" C="7" PS="Ln:150, Col:7" A="W" />
+        <Pos L="162" C="7" PS="Ln:162, Col:7" A="W" />
+        <Pos L="177" C="7" PS="Ln:177, Col:7" A="W" />
+        <Pos L="181" C="6" PS="Ln:181, Col:6" A="W" />
+        <Pos L="185" C="43" PS="Ln:185, Col:43" A="R" />
+        <Pos L="186" C="41" PS="Ln:186, Col:41" A="R" />
       </File>
     </Var>
     <Var Name="Gv.ConveyorIn.ReadyForOffload" Scope="Global" Type="UDT_Global">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="38" C="31" PS="Ln:38, Col:31" A="R" />
+        <Pos L="21" C="31" PS="Ln:21, Col:31" A="R" />
+      </File>
+    </Var>
+    <Var Name="Gv.StorageRackSystem.StoragePlaceRequest" Scope="Global" Type="UDT_Global">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
+        <Pos L="133" C="6" PS="Ln:133, Col:6" A="W" />
+        <Pos L="176" C="7" PS="Ln:176, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="Gv.StorageRackSystem.StoragePlaceAcknowledge.coordinate.x" Scope="Global" Type="UDT_Global">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
+        <Pos L="142" C="36" PS="Ln:142, Col:36" A="R" />
+      </File>
+    </Var>
+    <Var Name="Gv.StorageRackSystem.StoragePlaceAcknowledge.coordinate.z" Scope="Global" Type="UDT_Global">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
+        <Pos L="143" C="36" PS="Ln:143, Col:36" A="R" />
+      </File>
+    </Var>
+    <Var Name="Gv.StorageRackSystem.StoragePlaceAcknowledge.available" Scope="Global" Type="UDT_Global">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
+        <Pos L="175" C="7" PS="Ln:175, Col:7" A="W" />
+      </File>
+    </Var>
+    <Var Name="Gv.PickAndPlaceSystem.ActualPositionX" Scope="Global" Type="UDT_Global">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
+        <Pos L="233" C="2" PS="Ln:233, Col:2" A="W" />
+      </File>
+    </Var>
+    <Var Name="Gv.PickAndPlaceSystem.ActualPositionZ" Scope="Global" Type="UDT_Global">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
+        <Pos L="234" C="2" PS="Ln:234, Col:2" A="W" />
       </File>
     </Var>
     <Var Name="Opc.In.PickAndPlace.Opc_IO_LeftLimitSwitch" Scope="Global" Type="UDT_Opc">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="29" C="25" PS="Ln:29, Col:25" A="R" />
+        <Pos L="12" C="25" PS="Ln:12, Col:25" A="R" />
       </File>
     </Var>
     <Var Name="Opc.In.PickAndPlace.Opc_IO_MiddleLimitSwitch" Scope="Global" Type="UDT_Opc">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="30" C="26" PS="Ln:30, Col:26" A="R" />
+        <Pos L="13" C="26" PS="Ln:13, Col:26" A="R" />
       </File>
     </Var>
     <Var Name="Opc.In.PickAndPlace.Opc_IO_RightLimitSwitch" Scope="Global" Type="UDT_Opc">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="31" C="26" PS="Ln:31, Col:26" A="R" />
+        <Pos L="14" C="26" PS="Ln:14, Col:26" A="R" />
       </File>
     </Var>
     <Var Name="Opc.In.PickAndPlace.Opc_IO_MovingX" Scope="Global" Type="UDT_Opc">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="32" C="18" PS="Ln:32, Col:18" A="R" />
+        <Pos L="15" C="18" PS="Ln:15, Col:18" A="R" />
       </File>
     </Var>
     <Var Name="Opc.In.PickAndPlace.Opc_IO_MovingZ" Scope="Global" Type="UDT_Opc">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="33" C="18" PS="Ln:33, Col:18" A="R" />
+        <Pos L="16" C="18" PS="Ln:16, Col:18" A="R" />
       </File>
     </Var>
     <Var Name="Opc.In.PickAndPlace.Opc_IO_PosX" Scope="Global" Type="UDT_Opc">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="34" C="26" PS="Ln:34, Col:26" A="R" />
+        <Pos L="17" C="26" PS="Ln:17, Col:26" A="R" />
       </File>
     </Var>
     <Var Name="Opc.In.PickAndPlace.Opc_IO_PosZ" Scope="Global" Type="UDT_Opc">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="35" C="26" PS="Ln:35, Col:26" A="R" />
+        <Pos L="18" C="26" PS="Ln:18, Col:26" A="R" />
       </File>
     </Var>
     <Var Name="Opc.Out.PickAndPlace.Opc_IO_ForksLeft" Scope="Global" Type="UDT_Opc">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="191" C="2" PS="Ln:191, Col:2" A="W" />
+        <Pos L="241" C="3" PS="Ln:241, Col:3" A="W" />
       </File>
     </Var>
     <Var Name="Opc.Out.PickAndPlace.Opc_IO_ForksRight" Scope="Global" Type="UDT_Opc">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="192" C="2" PS="Ln:192, Col:2" A="W" />
+        <Pos L="242" C="3" PS="Ln:242, Col:3" A="W" />
       </File>
     </Var>
     <Var Name="Opc.Out.PickAndPlace.Opc_IO_XAxisSetPoint" Scope="Global" Type="UDT_Opc">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="194" C="2" PS="Ln:194, Col:2" A="W" />
+        <Pos L="244" C="3" PS="Ln:244, Col:3" A="W" />
       </File>
     </Var>
     <Var Name="Opc.Out.PickAndPlace.Opc_IO_ZAxisSetPoint" Scope="Global" Type="UDT_Opc">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="196" C="3" PS="Ln:196, Col:3" A="W" />
-        <Pos L="198" C="3" PS="Ln:198, Col:3" A="W" />
+        <Pos L="246" C="4" PS="Ln:246, Col:4" A="W" />
+        <Pos L="248" C="4" PS="Ln:248, Col:4" A="W" />
       </File>
     </Var>
     <Var Name="_1500_PPS.PAR_NbrOfTiers" Scope="Local" Type="DINT">
@@ -356,25 +440,27 @@
   <Consts>
     <Const Name="_1500_PPS.STS_Init" Scope="Local" Type="INT">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="59" C="6" PS="Ln:59, Col:6" A="R" />
+        <Pos L="62" C="6" PS="Ln:62, Col:6" A="R" />
       </File>
     </Const>
     <Const Name="_1500_PPS.STS_Idle" Scope="Local" Type="INT">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="60" C="33" PS="Ln:60, Col:33" A="R" />
-        <Pos L="62" C="3" PS="Ln:62, Col:3" A="R" />
+        <Pos L="63" C="33" PS="Ln:63, Col:33" A="R" />
+        <Pos L="65" C="3" PS="Ln:65, Col:3" A="R" />
+        <Pos L="182" C="35" PS="Ln:182, Col:35" A="R" />
       </File>
     </Const>
     <Const Name="_1500_PPS.STS_LoadFromConveyor" Scope="Local" Type="INT">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="64" C="34" PS="Ln:64, Col:34" A="R" />
-        <Pos L="67" C="3" PS="Ln:67, Col:3" A="R" />
+        <Pos L="73" C="34" PS="Ln:73, Col:34" A="R" />
+        <Pos L="76" C="3" PS="Ln:76, Col:3" A="R" />
       </File>
     </Const>
     <Const Name="_1500_PPS.STS_OffloadInStorage" Scope="Local" Type="INT">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="96" C="37" PS="Ln:96, Col:37" A="R" />
-        <Pos L="99" C="3" PS="Ln:99, Col:3" A="R" />
+        <Pos L="105" C="35" PS="Ln:105, Col:35" A="R" />
+        <Pos L="116" C="37" PS="Ln:116, Col:37" A="R" />
+        <Pos L="119" C="3" PS="Ln:119, Col:3" A="R" />
       </File>
     </Const>
   </Consts>
@@ -383,12 +469,12 @@
   <Funcs>
     <Func Name="FB_Loader" Lib="Library">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="45" C="2" PS="Ln:45, Col:2" />
+        <Pos L="28" C="2" PS="Ln:28, Col:2" />
       </File>
     </Func>
     <Func Name="FB_Crane" Lib="Library">
       <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1500_PPS\_0100_Controller.st">
-        <Pos L="41" C="2" PS="Ln:41, Col:2" />
+        <Pos L="24" C="2" PS="Ln:24, Col:2" />
       </File>
     </Func>
   </Funcs>

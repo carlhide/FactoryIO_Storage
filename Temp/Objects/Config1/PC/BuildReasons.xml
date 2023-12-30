@@ -1,175 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
-  <Rule ID=".mappView_Clean_Data">
-    <BuildReason>Rule contains a phony target. </BuildReason>
-  </Rule>
-  <Rule ID=".mappView_Clean_Media">
-    <BuildReason>Rule contains a phony target. </BuildReason>
-  </Rule>
-  <Rule ID=".mappView_Clean_TransferData_PLC">
-    <BuildReason>Rule contains a phony target. </BuildReason>
-  </Rule>
-  <Rule ID=".mappView_Clean_Build">
-    <BuildReason>Rule contains a phony target. </BuildReason>
-  </Rule>
-  <Rule ID=".mappView_Clean_TransferData_Client">
-    <BuildReason>Rule contains a phony target. </BuildReason>
-  </Rule>
-  <Rule ID=".mappView_Clean_TransferIatr_PLC">
-    <BuildReason>Rule contains a phony target. </BuildReason>
-  </Rule>
-  <Rule ID=".mappView_Clean_TransferIatr_Client">
-    <BuildReason>Rule contains a phony target. </BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\brease\iat\build\jsbuild._markerfile">
-    <BuildReason>Target "jsbuild._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\brease\iatc\brvisu\brease._markerfile">
-    <BuildReason>Target "brease._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\transformations_copy._markerfile">
-    <BuildReason>Target "transformations_copy._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\server\serverdiagnostics._markerfile">
-    <BuildReason>Target "serverdiagnostics._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\types\area._markerfile">
-    <BuildReason>Target "area._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\index.html">
-    <BuildReason>Target "index.html" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\favicon.ico">
-    <BuildReason>Target "favicon.ico" does not exist</BuildReason>
-  </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job._markerfile">
-    <BuildReason>ExternalCommand line differs.
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\iat_media.job" differs.
 </BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatethemesfinder._markerfile">
-    <BuildReason>Target "duplicatethemesfinder._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylessetsfinder._markerfile">
-    <BuildReason>Target "duplicatestylessetsfinder._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\duplicatestylesfinder._markerfile">
-    <BuildReason>Target "duplicatestylesfinder._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\duplicatebindingslistsetsfinder._markerfile">
-    <BuildReason>ExternalCommand line differs.
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\_1410_srs\cyclic.cpp.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\_1410_srs\cyclic.cpp" differs.
 </BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\_1010_sctr.xref">
+    <BuildReason>Target "_1010_sctr.xref" does not exist</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\_1410_srs.xref">
     <BuildReason>Target "_1410_srs.xref" does not exist</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_prerequisites._markerfile">
-    <BuildReason>Target ".mappview_prerequisites._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\area_default.scss.css">
-    <BuildReason>Target "area_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\changepassworddialog_default.scss.css">
-    <BuildReason>Target "changepassworddialog_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\body_default.scss.css">
-    <BuildReason>Target "body_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\dialog_default.scss.css">
-    <BuildReason>Target "dialog_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\elementfocus_default.scss.css">
-    <BuildReason>Target "elementfocus_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\focus_default.scss.css">
-    <BuildReason>Target "focus_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\messagebox_default.scss.css">
-    <BuildReason>Target "messagebox_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\modaldimmer_default.scss.css">
-    <BuildReason>Target "modaldimmer_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\page_default.scss.css">
-    <BuildReason>Target "page_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\scrollbar_default.scss.css">
-    <BuildReason>Target "scrollbar_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\selection_default.scss.css">
-    <BuildReason>Target "selection_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\startupprogressbar_default.scss.css">
-    <BuildReason>Target "startupprogressbar_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\tableconfigurationdialog_default.scss.css">
-    <BuildReason>Target "tableconfigurationdialog_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\types\tooltip_default.scss.css">
-    <BuildReason>Target "tooltip_default.scss.css" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\transformations\eventbinding\parametertypemapping.xml">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\common\busyindicatorhandler\libs\busyindicatorhandler.js._markerfile">
-    <BuildReason>Target "busyindicatorhandler.js._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validateeventbindings._markerfile">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\brease_core.css">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\server\__systemvariables.sessionvar">
-    <BuildReason>Target "__systemvariables.sessionvar" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\messagebox\meta\messagebox_copied.markerfile">
-    <BuildReason>Target "messagebox_copied.markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\window\meta\window_copied.markerfile">
-    <BuildReason>Target "window_copied.markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\dialogwindow\meta\dialogwindow_copied.markerfile">
-    <BuildReason>Target "dialogwindow_copied.markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\numpad\meta\numpad_copied.markerfile">
-    <BuildReason>Target "numpad_copied.markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\keyboard\meta\keyboard_copied.markerfile">
-    <BuildReason>Target "keyboard_copied.markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\widgets\brease\datetimepicker\meta\datetimepicker_copied.markerfile">
-    <BuildReason>Target "datetimepicker_copied.markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\brvisu\css\themes\grunt.themescsso._markerfile">
-    <BuildReason>Target "grunt.themescsso._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\.mappview_widgetsfinished._markerfile">
-    <BuildReason>Target ".mappview_widgetsfinished._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\validatebindings._markerfile">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breaserelease._markerfile">
-    <BuildReason>Target "grunt.breaserelease._markerfile" does not exist</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\duplicatebindingsfinder._markerfile">
-    <BuildReason>ExternalCommand line differs.
-</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\.mappview\data\wwwroot\grunt.breasecsso._markerfile">
-    <BuildReason>Target "grunt.breasecsso._markerfile" does not exist</BuildReason>
-  </Rule>
   <Rule ID=".mappView_Build">
     <BuildReason>Rule contains a phony target. </BuildReason>
   </Rule>
-  <Rule ID=".mappView_FullBuild">
+  <Rule ID=".mappView_IntegrationBuild">
     <BuildReason>Rule contains a phony target. </BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\_1410_srs\_bur_pvdef.c.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\_1410_srs\cyclic.cpp.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\_1410_srs\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\_1410_srs\cyclic.cpp.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\_1410_srs\_1410_srs.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\_1410_srs\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\config1\pc\_1410_srs.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\_1410_srs\_1410_srs.ox" differs.
+</BuildReason>
   </Rule>
   <Rule ID="#cpu_tp.mak">
     <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\config1\pc\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\config1\pc\_1410_srs.br" differs.
+</BuildReason>
   </Rule>
 </BuildReasons>

@@ -10,6 +10,7 @@
     <Object Type="File">OpcProperties.opcp</Object>
     <Object Type="File">OpcAlarm.opca</Object>
     <Object Type="Program" Language="IEC">_1000_SCTRL</Object>
+    <Object Type="Program" Language="ANSIC">_1010_SCTRL</Object>
     <Object Type="Program" Language="IEC">_1100_CSYS</Object>
     <Object Type="Program" Language="IEC">_1200_CS1</Object>
     <Object Type="Program" Language="IEC">_1300_CS2</Object>

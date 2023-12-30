@@ -1,6 +1,36 @@
 <?xml version="1.0"?>
 <Crossref Scope="_1000_SCTRL" AppMod="">
   <Vars>
+    <Var Name="Gv.Params.StorageSizeX" Scope="Global" Type="UDT_Global">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\Init.st">
+        <Pos L="5" C="2" PS="Ln:5, Col:2" A="W" />
+      </File>
+    </Var>
+    <Var Name="Gv.Params.StorageSizeZ" Scope="Global" Type="UDT_Global">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\Init.st">
+        <Pos L="6" C="2" PS="Ln:6, Col:2" A="W" />
+      </File>
+    </Var>
+    <Var Name="Gv.Params.FirstSlotXPos" Scope="Global" Type="UDT_Global">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\Init.st">
+        <Pos L="7" C="2" PS="Ln:7, Col:2" A="W" />
+      </File>
+    </Var>
+    <Var Name="Gv.Params.FirstSlotZPos" Scope="Global" Type="UDT_Global">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\Init.st">
+        <Pos L="8" C="2" PS="Ln:8, Col:2" A="W" />
+      </File>
+    </Var>
+    <Var Name="Gv.Params.LastSlotXPos" Scope="Global" Type="UDT_Global">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\Init.st">
+        <Pos L="9" C="2" PS="Ln:9, Col:2" A="W" />
+      </File>
+    </Var>
+    <Var Name="Gv.Params.LastSlotZPos" Scope="Global" Type="UDT_Global">
+      <File Name="C:\repos\local\FactoryIO_Storage\Logical\_1000_SCTRL\Init.st">
+        <Pos L="10" C="2" PS="Ln:10, Col:2" A="W" />
+      </File>
+    </Var>
   </Vars>
   <Consts>
   </Consts>

@@ -37,6 +37,7 @@ VAR
 	STS_Offload : INT;
 	STS_Store : INT;
 	STS_Load : INT;
+v_xTest : BOOL;
 END_VAR
 VAR CONSTANT
 	STS_Init : INT := 0;

@@ -6,7 +6,7 @@
     <File Description="Exported constants">Constants.var</File>
     <File Description="Exported functions and function blocks">Library.fun</File>
     <File>OPC.typ</File>
-    <File>Global.typ</File>
+    <File>GV.typ</File>
     <File>States.typ</File>
     <File>Sequence.typ</File>
     <File>DataTypes.typ</File>

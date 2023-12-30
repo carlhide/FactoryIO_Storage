@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ServerConfig Name="AsOPCS.opcs" BuildDate="2023-12-28 23:25:37" Version="3.0.80" VersionDate="2009-02-04">
+<ServerConfig Name="AsOPCS.opcs" BuildDate="2023-12-30 23:51:53" Version="3.0.80" VersionDate="2009-02-04">
   <TagPwd Pwd="" />
   <CommunicationPaths CommunicationTimeout="" RetryTime="" InitParam="">
     <Connection Name="@/Pvi" Type="Pvi" ObjectDescriptor="" />
